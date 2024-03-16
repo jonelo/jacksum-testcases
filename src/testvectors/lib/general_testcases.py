@@ -43,7 +43,7 @@ testcases = [
 	},
 	{
 		"desc":		"Jacksum as hex dumper",
-		"args":		[ "-a", "none", "-x", "-F", "#SEQUENCE", "-q", "file:samples/hello-world-windows.txt" ],
+		"args":		[ "-a", "none", "-x", "-F", "#SEQUENCE", "-q", "file:sample-files/hello-world-windows.txt" ],
 		"expected":	"48656c6c6f20576f726c64200d0a"
 	},
 	{
