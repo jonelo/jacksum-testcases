@@ -1,2 +1,9 @@
+March 16, 2024
+- added convert-testvectors-text2json.py in order to convert testvectors in "NIST text format" to json
+- added short and long message testvectors of the SHA3 family in json format
+- added short and long message testvectors of the NIST SHA-3 competition in json format
+  - all 3rd round candidates: blake, groestl, jh, keccak and skein
+  - some 2rd round candidates: echo, fugue, and luffa
+
 Aug 26, 2023
 - initial release
