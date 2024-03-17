@@ -1,6 +1,6 @@
 [
   {
-    "desc": "MDLen = 384, MsgLen = 0",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 0",
     "args": [
       "-a",
       "sha3-384",
@@ -12,7 +12,7 @@
     "expected": "0c63a75b845e4f7d01107d852e4c2485c51a50aaaa94fc61995e71bbee983a2ac3713831264adb47fb6bd1e058d5f004"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 8",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 8",
     "args": [
       "-a",
       "sha3-384",
@@ -24,7 +24,7 @@
     "expected": "7541384852e10ff10d5fb6a7213a4a6c15ccc86d8bc1068ac04f69277142944f4ee50d91fdc56553db06b2f5039c8ab7"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 16",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 16",
     "args": [
       "-a",
       "sha3-384",
@@ -36,7 +36,7 @@
     "expected": "d73a9d0e7f1802352ea54f3e062d3910577bf87edda48101de92a3de957e698b836085f5f10cab1de19fd0c906e48385"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 24",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 24",
     "args": [
       "-a",
       "sha3-384",
@@ -48,7 +48,7 @@
     "expected": "ea12d6d32d69ad2154a57e0e1be481a45add739ee7dd6e2a27e544b6c8b5ad122654bbf95134d567987156295d5e57db"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 32",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 32",
     "args": [
       "-a",
       "sha3-384",
@@ -60,7 +60,7 @@
     "expected": "cb6e6ce4a266d438ddd52867f2e183021be50223c7d57f8fdcaa18093a9d0126607df026c025bff40bc314af43fd8a08"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 40",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 40",
     "args": [
       "-a",
       "sha3-384",
@@ -72,7 +72,7 @@
     "expected": "e570d463a010c71b78acd7f9790c78ce946e00cc54dae82bfc3833a10f0d8d35b03cbb4aa2f9ba4b27498807a397cd47"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 48",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 48",
     "args": [
       "-a",
       "sha3-384",
@@ -84,7 +84,7 @@
     "expected": "21b1f3f63b907f968821185a7fe30b16d47e1d6ee5b9c80be68947854de7a8ef4a03a6b2e4ec96abdd4fa29ab9796f28"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 56",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 56",
     "args": [
       "-a",
       "sha3-384",
@@ -96,7 +96,7 @@
     "expected": "35fba6958b6c68eae8f2b5f5bdf5ebcc565252bc70f983548c2dfd5406f111a0a95b1bb9a639988c8d65da912d2c3ea2"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 64",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 64",
     "args": [
       "-a",
       "sha3-384",
@@ -108,7 +108,7 @@
     "expected": "60ad40f964d0edcf19281e415f7389968275ff613199a069c916a0ff7ef65503b740683162a622b913d43a46559e913c"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 72",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 72",
     "args": [
       "-a",
       "sha3-384",
@@ -120,7 +120,7 @@
     "expected": "bd045661663436d07720ff3c8b6f922066dfe244456a56ca46dfb3f7e271116d932107c7b04cc7c60173e08d0c2e107c"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 80",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 80",
     "args": [
       "-a",
       "sha3-384",
@@ -132,7 +132,7 @@
     "expected": "3d1584220409f88d38409a29ecaebb490ef884b5acba2c7eaf23914bab7f5f0fc97ee1e6336f88dfd4d0a06e902ccd25"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 88",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 88",
     "args": [
       "-a",
       "sha3-384",
@@ -144,7 +144,7 @@
     "expected": "563359fd93fe09f3fe49fcf5f17e7f92aab589cdec3e55e4c3715e7775814bbbfb8c4c732e28d3b6e6404860812dc6e9"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 96",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 96",
     "args": [
       "-a",
       "sha3-384",
@@ -156,7 +156,7 @@
     "expected": "88c66389ca2c320a39022aa441fa884fbc6ed2d3cc9ac475372d947d4960579a64e061a297d1831d3524f98d8094404b"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 104",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 104",
     "args": [
       "-a",
       "sha3-384",
@@ -168,7 +168,7 @@
     "expected": "751f5da5ff9e2460c99348070d5068d8a3d7ffcec7fd0e6f68f6cd4a2ef4226df8d9b4613c3b0d10a168eaf54eabe01a"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 112",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 112",
     "args": [
       "-a",
       "sha3-384",
@@ -180,7 +180,7 @@
     "expected": "10f287f256643ad0dfb5955dd34587882e445cd5ae8da337e7c170fc0c1e48a03fb7a54ec71335113dbdccccc944da41"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 120",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 120",
     "args": [
       "-a",
       "sha3-384",
@@ -192,7 +192,7 @@
     "expected": "23840671e7570a248cf3579c7c8810b5fcc35b975a3a43b506cc67faefa6dbe1c945abc09a903e199f759dcbc7f2c4d0"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 128",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 128",
     "args": [
       "-a",
       "sha3-384",
@@ -204,7 +204,7 @@
     "expected": "dd734f4987fe1a71455cf9fb1ee8986882c82448827a7880fc90d2043c33b5cbc0ed58b8529e4c6bc3a7288829e0a40d"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 136",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 136",
     "args": [
       "-a",
       "sha3-384",
@@ -216,7 +216,7 @@
     "expected": "dba6f929fe55f9d66c5f67c0af3b82f17bcf58b36752f3165c16083fea8fd478ee6903f27f820ad2dd9950afb48c6700"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 144",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 144",
     "args": [
       "-a",
       "sha3-384",
@@ -228,7 +228,7 @@
     "expected": "8218498ab01b63041c2ba0709e3309496124ddf0904543a9e0d9d096a750dda97f7a02208af3d8c618d4be7c2bb2a288"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 152",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 152",
     "args": [
       "-a",
       "sha3-384",
@@ -240,7 +240,7 @@
     "expected": "c5b3130ef8dbc580e1103fecae69c9a882d9ebf5a3def5938b07f843452a09c9f72f0dbca91d33b021cf6aa6fe60d2ed"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 160",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 160",
     "args": [
       "-a",
       "sha3-384",
@@ -252,7 +252,7 @@
     "expected": "f692c025c5c5f3d1275213c1df9bf9eb6d2188eda90ab5bffe631f1dbf70ebd628caee88b7d149e1ac4e262873979afe"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 168",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 168",
     "args": [
       "-a",
       "sha3-384",
@@ -264,7 +264,7 @@
     "expected": "d164306c99e3798790f0923fe92dbf2f96c3907127dacaa467c766ac75788062589272cb7690b8af2030dd8bd61a3df2"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 176",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 176",
     "args": [
       "-a",
       "sha3-384",
@@ -276,7 +276,7 @@
     "expected": "af2a42a4c67c3226c55b89605b0dee27e796c2792115f6097203db5aed89e35f563a8246d399fde00c2a5b97ed5a5e17"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 184",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 184",
     "args": [
       "-a",
       "sha3-384",
@@ -288,7 +288,7 @@
     "expected": "84e1b68bc9e2daefc19b567dec911ef46f5f37a74fdbbb6155e7e646f2735df2ac44e239689eb5b536465dc571e55cb2"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 192",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 192",
     "args": [
       "-a",
       "sha3-384",
@@ -300,7 +300,7 @@
     "expected": "041cc5861ba334563c61d4ef9710d4896c311c92edbe0d7cd53e803bf2f4eb6057235570770ce87c5520d7ec14198722"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 200",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 200",
     "args": [
       "-a",
       "sha3-384",
@@ -312,7 +312,7 @@
     "expected": "3840981a766d725f83d334e8982965033a5fbb5107d94ffef33b1f700cd46348091a49f6620c37ae3ef5b20513494826"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 208",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 208",
     "args": [
       "-a",
       "sha3-384",
@@ -324,7 +324,7 @@
     "expected": "f59f8428555984d1526cded8129c649fb1b683d35cec7c5e1209441a6a9e7c17f0784151b5ab8a8c492b402a3acb98c4"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 216",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 216",
     "args": [
       "-a",
       "sha3-384",
@@ -336,7 +336,7 @@
     "expected": "994532d1a557e990b1cc9e0395a2ad8b05619ca322db9da3c4ed2ee194c051d04582fde72dd2b8f674cf6ec958db75da"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 224",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 224",
     "args": [
       "-a",
       "sha3-384",
@@ -348,7 +348,7 @@
     "expected": "d51111f8bffb44d81ad19683198f29d2033144d3cd856c749cac5b9cae0e712f500f8d0ef813f38e305ce175a7d6162c"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 232",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 232",
     "args": [
       "-a",
       "sha3-384",
@@ -360,7 +360,7 @@
     "expected": "6c0b3395e4c86518ab0a06267320ee9ec95e50385b7a2527ddaa1bd0ead262c56122d4f4eb08b0ae22b3ee7e6f44dd18"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 240",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 240",
     "args": [
       "-a",
       "sha3-384",
@@ -372,7 +372,7 @@
     "expected": "0551583a5b4007401c77ef4382fd8e245c9cf12e976c9766af6b7ae3c7e07a82b3079f903b083d5ec85cb94e46a85ac0"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 248",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 248",
     "args": [
       "-a",
       "sha3-384",
@@ -384,7 +384,7 @@
     "expected": "5edde2f94f8695f277ec05efcc00761fafd272200aed0e63d221c2b6c65b4972a6526f9a1f2e6ace0e81938f043fe877"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 256",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 256",
     "args": [
       "-a",
       "sha3-384",
@@ -396,7 +396,7 @@
     "expected": "110630ca7631b7620e6bee6ed6e929098965571936c34829484983eba9532b8175528c228c57439453f027a4f7c83ca3"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 264",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 264",
     "args": [
       "-a",
       "sha3-384",
@@ -408,7 +408,7 @@
     "expected": "5884201f7a555ea3c5deeb019fd9e8c161e1b89756045e475b141ec5135ce5a41c93e5e1f79534d36fd8345ba434da43"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 272",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 272",
     "args": [
       "-a",
       "sha3-384",
@@ -420,7 +420,7 @@
     "expected": "05a3903b519cdf679120c7ccb4ef178b58e4502fcd461360988fa06669294851e629d9dd3e77ffb73d24599d5d3edd36"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 280",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 280",
     "args": [
       "-a",
       "sha3-384",
@@ -432,7 +432,7 @@
     "expected": "7ac2776afb74f55bbc4f6eccf825ee13ac7445fb54974e6c24ebc0f03fdcd8530199a61106a31b4279e02201ee0f54fd"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 288",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 288",
     "args": [
       "-a",
       "sha3-384",
@@ -444,7 +444,7 @@
     "expected": "02c44ceec0bb7dc0f664ebe44230192b5b0bb646bb944d23fa1ff3586dc0523fa9d7f0dd6df5449ab9edd9a1096b07dc"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 296",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 296",
     "args": [
       "-a",
       "sha3-384",
@@ -456,7 +456,7 @@
     "expected": "ad624edd9f2c3a32b56c53d9e813c01d66bcfe424c4a96907d52ac1ddd68370ec86dac67504a90e8a8e75502e01081d2"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 304",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 304",
     "args": [
       "-a",
       "sha3-384",
@@ -468,7 +468,7 @@
     "expected": "cf37dd27997c1bb7e6dc405170066e74c6ce517c029ed8dce126d025da74e0b8e86da567e8d7d8d5b5d3e2a546df7489"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 312",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 312",
     "args": [
       "-a",
       "sha3-384",
@@ -480,7 +480,7 @@
     "expected": "85cfc23c97cb13910b808e7033809a45aa0b7f7138de618c2ca622c8b813c988e264af3b96c7925dcbd1d2761757d800"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 320",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 320",
     "args": [
       "-a",
       "sha3-384",
@@ -492,7 +492,7 @@
     "expected": "8bddf3baebbc5b04fe0b0a9c3c2b730abe918ce4892d2843c613ee96da0228512f0d1307c7d1a8922e79a92e957dd18e"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 328",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 328",
     "args": [
       "-a",
       "sha3-384",
@@ -504,7 +504,7 @@
     "expected": "3639fab6191b35246278522cfacee0cd5b15580a26c505ae3c46b4b1c2572016b48f1b012bbbedec47916950fbb33a1d"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 336",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 336",
     "args": [
       "-a",
       "sha3-384",
@@ -516,7 +516,7 @@
     "expected": "0293eeef0aa3392c93d9c6ca89c08b317622572d4de2286a4b9ae6c2f9c9e0e64ee6c483d4f10859077e3c6868430214"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 344",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 344",
     "args": [
       "-a",
       "sha3-384",
@@ -528,7 +528,7 @@
     "expected": "db9e171d6e3336631c9ceec6b4d732ce62b015939269fb69fae7d22725500e8a2fc9f1459cf0a31fb9d16d7c44583f52"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 352",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 352",
     "args": [
       "-a",
       "sha3-384",
@@ -540,7 +540,7 @@
     "expected": "464ba409fbb45e985f84ee24662eb7c042c3c2ad9649f1ac4a8b2be9c07d37ed2e4284362057493f6a7e52c356b05bc5"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 360",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 360",
     "args": [
       "-a",
       "sha3-384",
@@ -552,7 +552,7 @@
     "expected": "a26bd76ce42d818dbec462d8fe7cdd957e6b84ae8750fb5e1c9c76bc6000e23737e073a59b4600e5056524edc667909d"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 368",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 368",
     "args": [
       "-a",
       "sha3-384",
@@ -564,7 +564,7 @@
     "expected": "b504ef475a568f9caba8352a0b2d243acdf3d2b41d8890a6fb3abb8aa28a29e0c7527d20e2d79b25b400ec27c314db72"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 376",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 376",
     "args": [
       "-a",
       "sha3-384",
@@ -576,7 +576,7 @@
     "expected": "53e99e1158d59032ffe4b5ea304c7d2f7a61b6b2a96ac97832ca26013549fe3f7dcdf926bd74ceabe4f1ff172daed6e6"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 384",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 384",
     "args": [
       "-a",
       "sha3-384",
@@ -588,7 +588,7 @@
     "expected": "4a16881ce156f45fdfdb45088e3f23be1b4c5a7a6a35315d36c51c75f275733319aca185d4ab33130ffe45f751f1bbc5"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 392",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 392",
     "args": [
       "-a",
       "sha3-384",
@@ -600,7 +600,7 @@
     "expected": "e27b39a96255ff69c45285fca6edaaa3954ce32c1e3d9b1f60c1b6676594bb45caf0889fc11daf93a1b60746229689dd"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 400",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 400",
     "args": [
       "-a",
       "sha3-384",
@@ -612,7 +612,7 @@
     "expected": "f96433cdb69a607433ea2eb77d87d3328867dc4076b67ccf17f50f9e08e89a86624b60f2ecdb8affcd431fc13173fe75"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 408",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 408",
     "args": [
       "-a",
       "sha3-384",
@@ -624,7 +624,7 @@
     "expected": "a352ab33ca730482c376bdc573c9d1dc6d3597f9be9f798b74a57beaa8e9c57b78ee6761056eb67363e882fefcad4fb9"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 416",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 416",
     "args": [
       "-a",
       "sha3-384",
@@ -636,7 +636,7 @@
     "expected": "aae7ad977e17ac0e560c0e0186433420f9fddcd191b9e91567cee05df88f1e1aee50424a313998a873f7a9c289a02217"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 424",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 424",
     "args": [
       "-a",
       "sha3-384",
@@ -648,7 +648,7 @@
     "expected": "85d4e3e5abcb1b59ca6f551eb43b43ff64890511f73a9083a2ce6e9c2861c6e9664c765629024f4b01b0cd1594a5981b"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 432",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 432",
     "args": [
       "-a",
       "sha3-384",
@@ -660,7 +660,7 @@
     "expected": "a44c7f84ab962f68283404f8c5c4029dbc35d2138e075c9327580baf89f292937bf99422e45756b3f942bf0a5ae4acb6"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 440",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 440",
     "args": [
       "-a",
       "sha3-384",
@@ -672,7 +672,7 @@
     "expected": "29c8bb39bb2aad419a00a80216ec71ec5ec9ab54c41927e3e3f2f48f079a5886d7fe89db98c807ab686d2339001d6252"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 448",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 448",
     "args": [
       "-a",
       "sha3-384",
@@ -684,7 +684,7 @@
     "expected": "0dfc6ffcf4a387ec09ff862c6139a6f7ac77abb2b5e1f6dc814eb71525f8657ac74a7697c2975c70a543af0e227d03ca"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 456",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 456",
     "args": [
       "-a",
       "sha3-384",
@@ -696,7 +696,7 @@
     "expected": "6278d1cc17fb6d54129d04987d4774fa846dcac4ba8b6b72f41e63dc387ce0081ba29fb2c17c6744edae24e669cc9e75"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 464",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 464",
     "args": [
       "-a",
       "sha3-384",
@@ -708,7 +708,7 @@
     "expected": "7ec9505f33f4a5493574422de078e0490b61be8e8d6f158192bb7d2bdc2dc335598dc88d9b443cd1c14b883a77119df1"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 472",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 472",
     "args": [
       "-a",
       "sha3-384",
@@ -720,7 +720,7 @@
     "expected": "3782d2caa537294e809e9df837b1b07e2f1df07d0f4c12e12459f56eeaa478d5b3a41e519d9414eafa5ddd5661c831ba"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 480",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 480",
     "args": [
       "-a",
       "sha3-384",
@@ -732,7 +732,7 @@
     "expected": "362c05f678df92883d56e19221391fb00d0f0afcec51d3e0feb15ba2fb60693b09d69118af649648933259d7b1e240ab"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 488",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 488",
     "args": [
       "-a",
       "sha3-384",
@@ -744,7 +744,7 @@
     "expected": "8f9fd7d879d6b51ee843e1fbcd40bb67449ae744db9f673e3452f028cb0189d9cb0fef7bdb5c760d63fea0e3ba3dd8d1"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 496",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 496",
     "args": [
       "-a",
       "sha3-384",
@@ -756,7 +756,7 @@
     "expected": "e248a64b6ef112bf3d29948b1c995808e506c049f3906d74c3ee1e4d9f351658681901fe42c8e28024fe31014e2d342b"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 504",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 504",
     "args": [
       "-a",
       "sha3-384",
@@ -768,7 +768,7 @@
     "expected": "d1e5a72d2595f38714c6198ac14f8a5cdd894dcf9b4b8e975174b100df7bbf4f7ce291b4864f27c0b64e6330f6c1c82c"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 512",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 512",
     "args": [
       "-a",
       "sha3-384",
@@ -780,7 +780,7 @@
     "expected": "07c2e0aeae30da83b5a6b320aa1cf727b10c2034583d7acda55648fa3daa017aa15588b6e2149101c56e3d7df7c76df1"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 520",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 520",
     "args": [
       "-a",
       "sha3-384",
@@ -792,7 +792,7 @@
     "expected": "dd0bbfe4b799642191abe316df9d59a3743566778b4459c51c3be3f658bdce45516ad188fbe1a8cad8a1fa78f8ebb645"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 528",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 528",
     "args": [
       "-a",
       "sha3-384",
@@ -804,7 +804,7 @@
     "expected": "ca26aec527fadcd5ebeb4eafa7c102f79a3c2edb452afd04f6162dd7a17bdd1aad7d616508a89a3ec6a40791d915acc8"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 536",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 536",
     "args": [
       "-a",
       "sha3-384",
@@ -816,7 +816,7 @@
     "expected": "99914f684e0b317f9338af0c71e9655a3af7153eb9fabaae61454bf8de9e0bfd274c1eff6c4b550e47afcb3b20fa7d9e"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 544",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 544",
     "args": [
       "-a",
       "sha3-384",
@@ -828,7 +828,7 @@
     "expected": "d3e32c9b271e11e4968397d85d76938b974ac1ba55bcbe8d7b7da02dbd7e3b9c9af0d98bbd7e50c436fcf9e3551e3432"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 552",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 552",
     "args": [
       "-a",
       "sha3-384",
@@ -840,7 +840,7 @@
     "expected": "272222ed50631aff465c0e6fe49ecdfdca983bcb7231e50903e200b335b845108202c28315912c9c4fd50e2c6f13a9ea"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 560",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 560",
     "args": [
       "-a",
       "sha3-384",
@@ -852,7 +852,7 @@
     "expected": "8361b680243b1661d6f1df53db363cae41c2ebb7438c00606d76b9c2a253faa1f09d6f520d69d692ec1dca0c7885119c"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 568",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 568",
     "args": [
       "-a",
       "sha3-384",
@@ -864,7 +864,7 @@
     "expected": "9c26e96fcc09a76cc13d24ad25c9cef4300e96e97e4fb59b441baffed07f6a70b1464f2548c7fd7839810dbb9e9c1e18"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 576",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 576",
     "args": [
       "-a",
       "sha3-384",
@@ -876,7 +876,7 @@
     "expected": "1ea779739b204abe911b4923e6f60fece271eedfc7f074fe1919f0cbc6ce2a99234b003389520884b660165f5a1e80f8"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 584",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 584",
     "args": [
       "-a",
       "sha3-384",
@@ -888,7 +888,7 @@
     "expected": "4209bb8f869f6f17c8d5c368c489ac51a75e24a85a12de1b16fefc292ce636ff8fa360e82f05684f6b0b074ba370a933"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 592",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 592",
     "args": [
       "-a",
       "sha3-384",
@@ -900,7 +900,7 @@
     "expected": "64c45e018cfbc88f8f4ffe3cef0df3a94aab3049fafae28e28efbb2a4b94809eb302caf901010abfa194f72965663d35"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 600",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 600",
     "args": [
       "-a",
       "sha3-384",
@@ -912,7 +912,7 @@
     "expected": "94bd67b7f2587b0bda5487cc45d00e4365f1ee40073cdf0d23a5ea3fba01eef42a46bfbac5306d67be02d8d918ae5c9a"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 608",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 608",
     "args": [
       "-a",
       "sha3-384",
@@ -924,7 +924,7 @@
     "expected": "947350307748c29467f00103d0a07c3c228c5f494fc88fe2352ca5d10449d0dda7076780c05439a09694eb528d1f477a"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 616",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 616",
     "args": [
       "-a",
       "sha3-384",
@@ -936,7 +936,7 @@
     "expected": "32286970204c3451958f5155f090448f061dd81b136a14592a3204c6b08e922ee5bb6d6534dbf8efb4bb7387092c8400"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 624",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 624",
     "args": [
       "-a",
       "sha3-384",
@@ -948,7 +948,7 @@
     "expected": "51168bfeef8a981c0def0c4cb067baf15ce5feb8d5f7e9d6076b2836267391aee1fd3a0b5d3434ceb5cf2d6fa06fa063"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 632",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 632",
     "args": [
       "-a",
       "sha3-384",
@@ -960,7 +960,7 @@
     "expected": "4ae44d6509986893a8414753b57d11f9c554d89c15ad6d70687c56c6c2ac73537acbb0d51f48e6bea6cf762d58890d7a"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 640",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 640",
     "args": [
       "-a",
       "sha3-384",
@@ -972,7 +972,7 @@
     "expected": "a733b118be72a187ddcbe5ba67e04b589f9cd9f8482c4bd9d64c580aba7d19d2d1f9c1ddf95fe6efdeffd44f67fcabb5"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 648",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 648",
     "args": [
       "-a",
       "sha3-384",
@@ -984,7 +984,7 @@
     "expected": "17ba30c0b5fc185b3245313b83dd0481145953101128914765784af751745b8a2b6a90a434548f3adaf1f07f18649890"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 656",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 656",
     "args": [
       "-a",
       "sha3-384",
@@ -996,7 +996,7 @@
     "expected": "ca85632a9f7c32ac4705c6458770025dda4fd07a8d5d6921b897b0da490d64400587649f2d20bf608b9a18d071b63b48"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 664",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 664",
     "args": [
       "-a",
       "sha3-384",
@@ -1008,7 +1008,7 @@
     "expected": "6e84587c8c6e54353a6032e7505902ef7f0f0538dd1bb32922e13a7d4d98c47a541015381eab27e9186398120da7fb32"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 672",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 672",
     "args": [
       "-a",
       "sha3-384",
@@ -1020,7 +1020,7 @@
     "expected": "75c585503f15a526113608bc183180b1cb80f4d1b466c576bf021b1ce7a1528391f70e10446681849fa8a643cb2b6828"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 680",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 680",
     "args": [
       "-a",
       "sha3-384",
@@ -1032,7 +1032,7 @@
     "expected": "02a09d37d31e4365c26bec0eaacecf29eea4e8d21ab915dd605248764d964f10ebb8fafdb591982d33869a1d08a7e313"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 688",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 688",
     "args": [
       "-a",
       "sha3-384",
@@ -1044,7 +1044,7 @@
     "expected": "5c84ae39d959b79555231746ad5b33689a31720ed0070f6772147977edd0aead07fb8b7b71b0bd587ebc5c1a80d564c7"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 696",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 696",
     "args": [
       "-a",
       "sha3-384",
@@ -1056,7 +1056,7 @@
     "expected": "ab7890d1b51af10285752bf9da5eee5c3e87a285dc33262d0261aa9a575f303e94845d7ab21b48f4e6884568cd78b550"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 704",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 704",
     "args": [
       "-a",
       "sha3-384",
@@ -1068,7 +1068,7 @@
     "expected": "968ae9104f9c907c5a72936250dfedd62cd04f6e5ddd2c113490808a11884449aaef5d013ea3993a6cb6fc5c08754408"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 712",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 712",
     "args": [
       "-a",
       "sha3-384",
@@ -1080,7 +1080,7 @@
     "expected": "975e10fac9aa77b780e5f6c2151ec4a3c72ff26e41233cc774c074df1b78cce5af1191ba955a0bce15926ae691b0ffe7"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 720",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 720",
     "args": [
       "-a",
       "sha3-384",
@@ -1092,7 +1092,7 @@
     "expected": "94729f5f99a54f5a3ea69233ff9d522392d4596eb6ac2bbb07492ece3c67317412bb47ae317ddd20536c3adc003862f1"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 728",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 728",
     "args": [
       "-a",
       "sha3-384",
@@ -1104,7 +1104,7 @@
     "expected": "26d48ef5067d704ee9e2a64e399de23068908b3c911ffc4056c168362c37385c92d37d51354b6505a82c4d22fec37eaa"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 736",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 736",
     "args": [
       "-a",
       "sha3-384",
@@ -1116,7 +1116,7 @@
     "expected": "5fa4ebfa24150236c03409f0857b31cb95b0150f381c8858b01559957b1268f73c698709233e6b15468675a102d0c5e5"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 744",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 744",
     "args": [
       "-a",
       "sha3-384",
@@ -1128,7 +1128,7 @@
     "expected": "eaa756b5892fdfc793d74e3f9f4d6c7a5a6a2241dd11e0c38ced59c8ec7be377a41d1d06774a5970ce9722d8e119d0ad"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 752",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 752",
     "args": [
       "-a",
       "sha3-384",
@@ -1140,7 +1140,7 @@
     "expected": "1aff8d9c64f0c162ed0195d1f3a342a010d14be0636903c48020ba42de1cfa8b98ae2142d89af3e69e9eb4c735857dd1"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 760",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 760",
     "args": [
       "-a",
       "sha3-384",
@@ -1152,7 +1152,7 @@
     "expected": "84da02114e341a3636f00822b32bd21a8a1f7b39f2956bd97f39346fedf9aae63b304c65c93a541e8bcda549576d5f27"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 768",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 768",
     "args": [
       "-a",
       "sha3-384",
@@ -1164,7 +1164,7 @@
     "expected": "81d6e0d96575a9b8ca083ee9ec2ead57ddf72b97d7709086a2f4a749d3f61d16423463487562c7f09aba1b26e8cae47b"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 776",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 776",
     "args": [
       "-a",
       "sha3-384",
@@ -1176,7 +1176,7 @@
     "expected": "00e95f4e8a32a03e0a3afba0fd62c7c3c7120b41e297a7ff14958c0bdf015a478f7bab9a22082bfb0d206e88f4685117"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 784",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 784",
     "args": [
       "-a",
       "sha3-384",
@@ -1188,7 +1188,7 @@
     "expected": "eb396cfaf26ee2775af3c9a3a3047664ca34cbc228ccbb966df187d518717df6a328ecc316ed0ed09b170080eccc486f"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 792",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 792",
     "args": [
       "-a",
       "sha3-384",
@@ -1200,7 +1200,7 @@
     "expected": "4a339128486e5b274fc4ed538c0ec9e57f780e9c500c5f92b04ae81a22fbeebf3785259a0bb3b6d9b47f31873cd8dffa"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 800",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 800",
     "args": [
       "-a",
       "sha3-384",
@@ -1212,7 +1212,7 @@
     "expected": "5981815c1618cc49cd5cf71a4b7b32b8cd7b7ef553bfaef2149ac723ff2582a2d345c5bd05943e155ced1e5f091c5601"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 808",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 808",
     "args": [
       "-a",
       "sha3-384",
@@ -1224,7 +1224,7 @@
     "expected": "7257f5bfa7d33d1cf5f4550d0cb78750e84c5b7d25027da6acec64bdf30879a0e5c97fe7c468e743aa5ec2bddb29d193"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 816",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 816",
     "args": [
       "-a",
       "sha3-384",
@@ -1236,7 +1236,7 @@
     "expected": "60d7f8bd85fb7a13701db5aded2b7771ab5e476ec34f1fd4298978defbd2b31bb2979391559a164b3ed28f6a39031a11"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 824",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 824",
     "args": [
       "-a",
       "sha3-384",
@@ -1248,7 +1248,7 @@
     "expected": "b1319192df11faa00d3c4b068becc8f1ba3b00e0d1ff1f93c11a3663522fdb92ab3cca389634687c632e0a4b5a26ce92"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 832",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 832",
     "args": [
       "-a",
       "sha3-384",
@@ -1260,7 +1260,7 @@
     "expected": "71307eec1355f73e5b726ed9efa1129086af81364e30a291f684dfade693cc4bc3d6ffcb7f3b4012a21976ff9edcab61"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 1672",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 1672",
     "args": [
       "-a",
       "sha3-384",
@@ -1272,7 +1272,7 @@
     "expected": "3054d249f916a6039b2a9c3ebec1418791a0608a170e6d36486035e5f92635eaba98072a85373cb54e2ae3f982ce132b"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 2512",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 2512",
     "args": [
       "-a",
       "sha3-384",
@@ -1284,7 +1284,7 @@
     "expected": "02535d86cc7518484a2a238c921b739b1704a50370a2924abf39958c5976e658dc5e87440063112459bddb40308b1c70"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 3352",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 3352",
     "args": [
       "-a",
       "sha3-384",
@@ -1296,7 +1296,7 @@
     "expected": "927962c873a69caa05cadc1cb485eb1cbb07748e47d942192df4af9233f42b95a638918306ae83a8237d21c2824f666d"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 4192",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 4192",
     "args": [
       "-a",
       "sha3-384",
@@ -1308,7 +1308,7 @@
     "expected": "d30ec9a7baeabe40f6648a624dddf8721c89542e258f0fa9afcc9e68433faef781824048b0b771a94e8f0c17a403f9fb"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 5032",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 5032",
     "args": [
       "-a",
       "sha3-384",
@@ -1320,7 +1320,7 @@
     "expected": "91e24f999cac1b9ab9ae456ecf47b52c1144ffd1df2d95feb05fce930e37ff767a005cf07bb7af45c8a73585e8544965"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 5872",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 5872",
     "args": [
       "-a",
       "sha3-384",
@@ -1332,7 +1332,7 @@
     "expected": "2865a64e54bf077b8343beca94a9bcc137797cc916019722f5889726fb0a74efd3ee0f6526ad7e076fe4f23526714130"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 6712",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 6712",
     "args": [
       "-a",
       "sha3-384",
@@ -1344,7 +1344,7 @@
     "expected": "694b79148a8b6a3278b9088467c5f62e295275254c62ece9ba3586dd09f4791ceae4445999199f421eb5ad6d04fff52e"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 7552",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 7552",
     "args": [
       "-a",
       "sha3-384",
@@ -1356,7 +1356,7 @@
     "expected": "93d4fc2b9e42c2a48e6103f17d9d2fb38330aba7de7a43011cc4bb93d161d6a3b2746baad5d88e6f37cba4cba42fa053"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 8392",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 8392",
     "args": [
       "-a",
       "sha3-384",
@@ -1368,7 +1368,7 @@
     "expected": "60742329b560bbc7929cd578f87e0979db19c938d413f36360aed6361550501941f32ee8e362478c96202683a28e4f25"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 9232",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 9232",
     "args": [
       "-a",
       "sha3-384",
@@ -1380,7 +1380,7 @@
     "expected": "b6b1090cdb31627388f87c4fbe6253464215b812169a48fc8897d64e7b004742da4891264f0ce2bd2512f48a03c0afc7"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 10072",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 10072",
     "args": [
       "-a",
       "sha3-384",
@@ -1392,7 +1392,7 @@
     "expected": "cd1a0d7f2bbac5cdac53fadf236c4675b5b23ff4847aef227cd71e653bae85e0da3bda458eae87bbcb5b4640d9451d45"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 10912",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 10912",
     "args": [
       "-a",
       "sha3-384",
@@ -1404,7 +1404,7 @@
     "expected": "d028f9a585a081207101ff8c32a54829879883fa0f4c4180542842168df757cac06a951aa68b277ca0fa99850b928e75"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 11752",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 11752",
     "args": [
       "-a",
       "sha3-384",
@@ -1416,7 +1416,7 @@
     "expected": "265fecfad0705b6deb29e1bc690f4eaee2a03c699e6352db82d94f71658b24f5fde1e885968b639d8361928cbcad8506"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 12592",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 12592",
     "args": [
       "-a",
       "sha3-384",
@@ -1428,7 +1428,7 @@
     "expected": "e1207486293acd4065b8bcaa23562d32a0e532a2080f7825b8600fb85635cc9a11cddad32d2a6b8804f57c1ca7a71447"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 13432",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 13432",
     "args": [
       "-a",
       "sha3-384",
@@ -1440,7 +1440,7 @@
     "expected": "56da709aa4104a9348bb7cc4531084395cae7cffdb79616dd8df2b74b03a7a717ea4215bd79036aee38c1de07affc6ad"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 14272",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 14272",
     "args": [
       "-a",
       "sha3-384",
@@ -1452,7 +1452,7 @@
     "expected": "2ad3d03e159d5ea831351e90ac1a86a1bc9c607da81908cc7d14f8f222088c1576363a6f00e37c0ebd34b11a0aeded55"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 15112",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 15112",
     "args": [
       "-a",
       "sha3-384",
@@ -1464,7 +1464,7 @@
     "expected": "355ddfc00153e895e8f8f3a4b7a5d45d4307783744f95dcaa92d64b166a0b8cbb09aa505035c486e3925d92959fd00bd"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 15952",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 15952",
     "args": [
       "-a",
       "sha3-384",
@@ -1476,7 +1476,7 @@
     "expected": "35176b0bd105670592c7d16861e82818e5c86d37bbaecede6f37dbbda4d9d841fc16d51b3778382fef376e05db0cf6ab"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 16792",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 16792",
     "args": [
       "-a",
       "sha3-384",
@@ -1488,7 +1488,7 @@
     "expected": "7d9c9b9bf8f498815a36dd421a3fd4a67d8333a7801f4abb9e4b46270dc52cb17feb3b953fc34fb0f18b36f22c66f723"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 17632",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 17632",
     "args": [
       "-a",
       "sha3-384",
@@ -1500,7 +1500,7 @@
     "expected": "3aa0630a5e6dacff792164a3a0da804495daf356a6c4628965924f03c16f9a0280f18362ae52a88df4a81eacb859938e"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 18472",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 18472",
     "args": [
       "-a",
       "sha3-384",
@@ -1512,7 +1512,7 @@
     "expected": "1501bc2bc0f94c7caed9eec2b30d3febd3d7a6fada1031805e176f53a46e6e5f51376ae05c640f4f76a414bfaf064d7c"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 19312",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 19312",
     "args": [
       "-a",
       "sha3-384",
@@ -1524,7 +1524,7 @@
     "expected": "583678431befa78e113f621fe22396ed963c825826e9314faaff5b9a53643552dbe0f3922b28558c4ecb26bdbb2dfa30"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 20152",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 20152",
     "args": [
       "-a",
       "sha3-384",
@@ -1536,7 +1536,7 @@
     "expected": "086743fb7f677d6103302089d6af03f0bc4808a67341e12e6b5b1df3d453e6f6ee71e32f38c7ba89d563cd6539776de1"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 20992",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 20992",
     "args": [
       "-a",
       "sha3-384",
@@ -1548,7 +1548,7 @@
     "expected": "5bd874505a88f3c9cc89440804bf07373aa24b2b12de13c9db28de31ec7dad213673445d1ac286ab9593309c90c3e795"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 21832",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 21832",
     "args": [
       "-a",
       "sha3-384",
@@ -1560,7 +1560,7 @@
     "expected": "6b1005ddfcda73f8aa8f0ac680742cdec94138106f924a90693c794b032323e16dff33a9d5bcf7b3189e9ea713023346"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 22672",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 22672",
     "args": [
       "-a",
       "sha3-384",
@@ -1572,7 +1572,7 @@
     "expected": "5acda45e1cc211222a11a97959cc44a75f3a20d4d812b8730ef980652c9105d115dc30025ed901454faba7685a6250f3"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 23512",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 23512",
     "args": [
       "-a",
       "sha3-384",
@@ -1584,7 +1584,7 @@
     "expected": "84789c55b2a0ca9c83f3666dd8ce1b8d0e117f275d9356ea69fa51764fa0040838b641d1a3f1098cf02eb9d0692a1bfd"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 24352",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 24352",
     "args": [
       "-a",
       "sha3-384",
@@ -1596,7 +1596,7 @@
     "expected": "6f287a049831920f0533f610f4e93c7ff25c09325d311f8990e8756f4d61908b504edf187050d96736d3e5f2bf9b98a5"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 25192",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 25192",
     "args": [
       "-a",
       "sha3-384",
@@ -1608,7 +1608,7 @@
     "expected": "8312bea2c7fd3dc56dfb555da47d10df984f6cd05b8b39fabee22bf976953b41dac1eaab5dc88c674671c4943d8d701c"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 26032",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 26032",
     "args": [
       "-a",
       "sha3-384",
@@ -1620,7 +1620,7 @@
     "expected": "c8ee483480f359ce91dcbb3a9c693e7237503d8a70c53c79e81b4cabf058f84fd014d98bebcead418374ccf8d795a576"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 26872",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 26872",
     "args": [
       "-a",
       "sha3-384",
@@ -1632,7 +1632,7 @@
     "expected": "6bba2f56c9adeeb9c8e33ce48c37ea3fa188c783c3c7169ac840afc3517c22587eeeff18c0b455ee05b41d627915d88f"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 27712",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 27712",
     "args": [
       "-a",
       "sha3-384",
@@ -1644,7 +1644,7 @@
     "expected": "f37a96b849cfaeed5510de8139ef70ab2aa8cbe9a8274892eb6745f691b6efc6dc7e1c3a14fe7b68c5cf9ce90b8be935"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 28552",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 28552",
     "args": [
       "-a",
       "sha3-384",
@@ -1656,7 +1656,7 @@
     "expected": "3bf62b1d2327dbe9416d2c134c40ad7b174dea5e1eb6e48d2615e9bbcee6315a39316883b841a007e216482f73983257"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 29392",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 29392",
     "args": [
       "-a",
       "sha3-384",
@@ -1668,7 +1668,7 @@
     "expected": "04a388ae515e001dac91b32f939db69cd9cb3aa5f1aaf8e3c5662943ab06ac7f2f8790859413e2472851c02fe08e0fca"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 30232",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 30232",
     "args": [
       "-a",
       "sha3-384",
@@ -1680,7 +1680,7 @@
     "expected": "e431118a6df2557969d5fd3700d9aaa0387aade2b5c1866c4837057e9906e7f536d9d0ca200aac006031f259b0980e7e"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 31072",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 31072",
     "args": [
       "-a",
       "sha3-384",
@@ -1692,7 +1692,7 @@
     "expected": "04d91612047d31900cc2e6603180b994856ef9a41eccdc48c1a93a32dc70c08c3bdd5f549fd723279d8dab9d28cf62b3"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 31912",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 31912",
     "args": [
       "-a",
       "sha3-384",
@@ -1704,7 +1704,7 @@
     "expected": "0f805dee39c1ecafff27cfc64b61bb17fac906a6c5d628f38466fa3e55d902784853238833ac663267159ffae83e9dbb"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 32752",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 32752",
     "args": [
       "-a",
       "sha3-384",
@@ -1716,7 +1716,7 @@
     "expected": "b8126f07326a0d6203136f5f5d8fdaf480a05d468b1770835092efac82b4a6a5dc280e3715ba3af95489e0e299ceb737"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 33592",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 33592",
     "args": [
       "-a",
       "sha3-384",
@@ -1728,7 +1728,7 @@
     "expected": "fb893446154e1ed6ef8ece5c8acd76b3b499bded4166040f8b2e29f6c35502a8c50464bf62c87788eecc5cf421add3a2"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 34432",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 34432",
     "args": [
       "-a",
       "sha3-384",
@@ -1740,7 +1740,7 @@
     "expected": "47a5b4586728b1f5fc483b5c1a1842224e67106496413a54018ce3c97436589a298811d69d4d10d0e3daf108e21d7571"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 35272",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 35272",
     "args": [
       "-a",
       "sha3-384",
@@ -1752,7 +1752,7 @@
     "expected": "242b1faa8eaa0aab294f2c19ebac80eae2b8a0003eda813bab309ae11616f46d8b7802ccffac879565eef09252ca7f4f"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 36112",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 36112",
     "args": [
       "-a",
       "sha3-384",
@@ -1764,7 +1764,7 @@
     "expected": "490e60e8188be71a0739a15110bbfc5fa44a3f740d647b8ded975e56f008cc1bce9f09fb6420dfcf6f7bccd90c7d4691"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 36952",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 36952",
     "args": [
       "-a",
       "sha3-384",
@@ -1776,7 +1776,7 @@
     "expected": "3e8df9e44a1f385dd8294121beec40987944d11137308eb2b446ab9f17d1fa789048c28752c5efdb1f3a445989eeacdf"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 37792",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 37792",
     "args": [
       "-a",
       "sha3-384",
@@ -1788,7 +1788,7 @@
     "expected": "6909ac7b6c633a2759d1360a91271351df07c2d751065b0fc825d2bf80f04bf122fa4218204df15ebcf7af6220938ff3"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 38632",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 38632",
     "args": [
       "-a",
       "sha3-384",
@@ -1800,7 +1800,7 @@
     "expected": "6fbd9b6b53942b1ef9acdf1d2ae028866d752bce6492ba54b936f9e4ba24bf4bd480490df03930c6f83786e5f5119115"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 39472",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 39472",
     "args": [
       "-a",
       "sha3-384",
@@ -1812,7 +1812,7 @@
     "expected": "2cdf17a77e4ce67cc7cbe2b5fbdbb4d9a8c3d9bb356c6c8806c3f121226053b829cd6a86805c1c2284f60971acce22e0"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 40312",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 40312",
     "args": [
       "-a",
       "sha3-384",
@@ -1824,7 +1824,7 @@
     "expected": "ae545216134ab91768e77fc9788401f48edec0081927aa75b3b4979d8d82975c47f23eba46e573826629be8afefb25b5"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 41152",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 41152",
     "args": [
       "-a",
       "sha3-384",
@@ -1836,7 +1836,7 @@
     "expected": "dd98829dd867a261653204e0cd33cff499f7e67d2fc5141852ba8fb73165b847ff7201531a4d71744cb0d48d8ecbcc0e"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 41992",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 41992",
     "args": [
       "-a",
       "sha3-384",
@@ -1848,7 +1848,7 @@
     "expected": "ad9603b727fa2a408d072b0edcd3c9b7e2b7f565077de4c142ef88ca6dbc2a268f2785ae027c6101dd57cf4496652d48"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 42832",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 42832",
     "args": [
       "-a",
       "sha3-384",
@@ -1860,7 +1860,7 @@
     "expected": "6c4d0c81602eecd04e59820703e1bf6af121368c81526ee2231b430e127f0492c558899830ebd791debe613ce0ea0c73"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 43672",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 43672",
     "args": [
       "-a",
       "sha3-384",
@@ -1872,7 +1872,7 @@
     "expected": "605a4138d1c96d183b19a72ffc23df842c10c536499245279bbe9c25bfa6cbd412b1c7f00997bcef5eac8e79c45b6718"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 44512",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 44512",
     "args": [
       "-a",
       "sha3-384",
@@ -1884,7 +1884,7 @@
     "expected": "2f35f8f6aa593ab603103d7dca0da6a5b2fe9368c442dba97b301cd86e76b451d9a663ea920267e0e1e97b3083917dc5"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 45352",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 45352",
     "args": [
       "-a",
       "sha3-384",
@@ -1896,7 +1896,7 @@
     "expected": "216f0c63313481f3262883c255d5a2d3185dcb89d5612ff6c514c9318b0e68610337155fdda301576f4f3745692a39f8"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 46192",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 46192",
     "args": [
       "-a",
       "sha3-384",
@@ -1908,7 +1908,7 @@
     "expected": "7da03ebde1fedf9a8f8df93ef1c533e5e43c22ad63775b2065184f80fbdde6349bbe61a059befb0099ae60f7f6108c84"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 47032",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 47032",
     "args": [
       "-a",
       "sha3-384",
@@ -1920,7 +1920,7 @@
     "expected": "f000a65033dc5bf05c377da01406f9549c22fe64b157b707195a8288bf571eb81558912b364f5880da3c779d5b1a0f93"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 47872",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 47872",
     "args": [
       "-a",
       "sha3-384",
@@ -1932,7 +1932,7 @@
     "expected": "8fb6dbb1c436b111c9fb5e24751a162868d1ad978c1c2c66b1433eef14fdc6eadfaa7f3779b7770bd4c3740dfd4a028b"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 48712",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 48712",
     "args": [
       "-a",
       "sha3-384",
@@ -1944,7 +1944,7 @@
     "expected": "aab599675ef265129cc572b1b15f6907c1e4ca93c9e9287756543fef4d9b9220a786631930fb4bd1b83cedd48abcb32a"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 49552",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 49552",
     "args": [
       "-a",
       "sha3-384",
@@ -1956,7 +1956,7 @@
     "expected": "81da5700a7abc8fc22fb08191954199539d2cd575ae1300a53cbfa6e8b0c3a00b510a412f18661bf3397fbf5f267635b"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 50392",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 50392",
     "args": [
       "-a",
       "sha3-384",
@@ -1968,7 +1968,7 @@
     "expected": "b09e028bef7dd76061821329af04c924312aba29b673959b0c3d106874cd0439ed8ca2ab381deac5a2079746ba3d7138"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 51232",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 51232",
     "args": [
       "-a",
       "sha3-384",
@@ -1980,7 +1980,7 @@
     "expected": "e7810153660e3a2544d60ed48ec01100501e3f45f801848c43eda9a1289f23ddd3a903faee07491caf1ddaea79e9c065"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 52072",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 52072",
     "args": [
       "-a",
       "sha3-384",
@@ -1992,7 +1992,7 @@
     "expected": "0e9300bee71c1d878728f37be6aebb759935405dd72970b5f27e02480d51d5da747ca6423b838602a797f2dde4c71cdd"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 52912",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 52912",
     "args": [
       "-a",
       "sha3-384",
@@ -2004,7 +2004,7 @@
     "expected": "448eb7b0ac8065e403c918788d36478924a8567f3c38a5fd4745fd6c7f14c005cb826e80995cfd9fbcc922df876e4941"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 53752",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 53752",
     "args": [
       "-a",
       "sha3-384",
@@ -2016,7 +2016,7 @@
     "expected": "448dd92317450a76fdf44702ed65dc9bab176be177a03c1b227eb7d7609d4c78a064f0e7ae4cdb81abef47622e68e17d"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 54592",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 54592",
     "args": [
       "-a",
       "sha3-384",
@@ -2028,7 +2028,7 @@
     "expected": "ffca890eb8966eae11027fbd44c4d8ffcfa6c2ed18c1a0fadb42155ab3a578f76032ddbf89499f5e160b2c61385c6459"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 55432",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 55432",
     "args": [
       "-a",
       "sha3-384",
@@ -2040,7 +2040,7 @@
     "expected": "20f6838e93f3db651735e3424cbda62c916bcfea96611d3354e90aac3c0fcb082f65d9c98e7a75ce1f1c72510a9e811b"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 56272",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 56272",
     "args": [
       "-a",
       "sha3-384",
@@ -2052,7 +2052,7 @@
     "expected": "167ccf87f778593fbd6c6f7f2adeca9093f8be4606b57a457ef5e02063d5f0c6a45e66355d197157a6aa5eb6fab4e17a"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 57112",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 57112",
     "args": [
       "-a",
       "sha3-384",
@@ -2064,7 +2064,7 @@
     "expected": "2cbeca4e486b64fb5da9a808233dd441ac3a9b82d9289a5b06f6a9ad5a42fb5bc0e7ec2d1bad621c7b5242b4072ab993"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 57952",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 57952",
     "args": [
       "-a",
       "sha3-384",
@@ -2076,7 +2076,7 @@
     "expected": "c06d99d76da337e812f0f59721fd6e89eafacd033f4e2a02d9a25da4472f6b252a3dc9a277dcc77f588fc8c14d38884f"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 58792",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 58792",
     "args": [
       "-a",
       "sha3-384",
@@ -2088,7 +2088,7 @@
     "expected": "0657092509fbb331f3e1dc1adb6cf1bbd7e2f7f6d12d638fbf1f4423e05f250fee6d3bd0deecd5aac14e9041ab4e2521"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 59632",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 59632",
     "args": [
       "-a",
       "sha3-384",
@@ -2100,7 +2100,7 @@
     "expected": "3f23ed91d69d523db3ec7169e191eef51b02c7c2a032afb54db2c9e99a386d306653b36425262cc60389dcefb7a0aed6"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 60472",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 60472",
     "args": [
       "-a",
       "sha3-384",
@@ -2112,7 +2112,7 @@
     "expected": "78f7415460afbdec88f4e521815d4b95e2a1c0f74583ed8df019dae5b918f0ea9d6b899c94b7d5028cdeb0995f6a4276"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 61312",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 61312",
     "args": [
       "-a",
       "sha3-384",
@@ -2124,7 +2124,7 @@
     "expected": "095a60f89feefa7c107f12675a7d3b8986c2123ab94b45984892326237e48615cf50caf5e5454df4ff0221997483b749"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 62152",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 62152",
     "args": [
       "-a",
       "sha3-384",
@@ -2136,7 +2136,7 @@
     "expected": "7181cde447be80b58bccf3b829be5fd38dd96afb4703bf044f911227a8ec7520ef68fcc902862494dbbfbcbc71b9b499"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 62992",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 62992",
     "args": [
       "-a",
       "sha3-384",
@@ -2148,7 +2148,7 @@
     "expected": "cd042303ba4134f0a388ac197097a3fc72d538f58aa6ef56eb37b64c7d27d08cc14895a417cdc5df14dbced947a30f51"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 63832",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 63832",
     "args": [
       "-a",
       "sha3-384",
@@ -2160,7 +2160,7 @@
     "expected": "4917761d14cbbe8b359b38c7b4523c46ef55406cba435dbe7461543c7557b0793da09522f8f9195b9c2d8712406e548f"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 64672",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 64672",
     "args": [
       "-a",
       "sha3-384",
@@ -2172,7 +2172,7 @@
     "expected": "ec24f4b7a267e87a2b09d3d9a85d7472db6b3901347c462a2cc7920b92824229fd16f5a5cd07f9e14621961d8287c3ba"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 65512",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 65512",
     "args": [
       "-a",
       "sha3-384",
@@ -2184,7 +2184,7 @@
     "expected": "b8ee436d5ebfcc8c9f2fcf8627736382f29a3953f34da315e1eb3cfabb985d818f2080c6f7b12294fb5e518071e552e2"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 66352",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 66352",
     "args": [
       "-a",
       "sha3-384",
@@ -2196,7 +2196,7 @@
     "expected": "8da67f49dbbc4b1581c1fb9058f4fd6515d46d991e58e58f0b701445ef0f4aa22e02424be8afe809db77f8873d81b962"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 67192",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 67192",
     "args": [
       "-a",
       "sha3-384",
@@ -2208,7 +2208,7 @@
     "expected": "3cb8d564f471d6321df17224b95b01601c78d0dfa0ef6a1071362ba548500e6bc5905a015faa2d14f7d7f2a09f13c53a"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 68032",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 68032",
     "args": [
       "-a",
       "sha3-384",
@@ -2220,7 +2220,7 @@
     "expected": "6f5b3cfbb51545d31cc52d33723c7501f9cdf56c8c5c2dfacbd541bef531c6c5f828230601af056cec9fc8faea0ee59e"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 68872",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 68872",
     "args": [
       "-a",
       "sha3-384",
@@ -2232,7 +2232,7 @@
     "expected": "68e771922c79a10b5dd28e0ab04fee66b63c84f1cc35f461f5e2bff3de92edb724fd9bdef11fefdbb3ee56550ddef35d"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 69712",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 69712",
     "args": [
       "-a",
       "sha3-384",
@@ -2244,7 +2244,7 @@
     "expected": "51aa94e4628f5d2935a5a72e83e3fe338a8f741b65642f0d0b4539421bab40db444bb02bb29f81a035b6dcb750071624"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 70552",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 70552",
     "args": [
       "-a",
       "sha3-384",
@@ -2256,7 +2256,7 @@
     "expected": "c002484e52f839a2cd09858c4743ec6438a59e861ef81b2989c2c939804a3b04951f97340cef8be565c0c6204e7a576f"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 71392",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 71392",
     "args": [
       "-a",
       "sha3-384",
@@ -2268,7 +2268,7 @@
     "expected": "13588348128f27d0379a188917f5a782b793b561a8ee08ad56e2d156b0ac6d225ff87001f0931b510fb828b784b33d14"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 72232",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 72232",
     "args": [
       "-a",
       "sha3-384",
@@ -2280,7 +2280,7 @@
     "expected": "5fcb46e07b06e5d11a7a69c28068c441ab6396e46cfdbf4a4346568ad567c45793b2e01b6cbe859e4fad2a03b01a8a06"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 73072",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 73072",
     "args": [
       "-a",
       "sha3-384",
@@ -2292,7 +2292,7 @@
     "expected": "99e458ded2e24f962e1d576a8f292c013e39bfa027850d1c4226f4788ec278b2bb72ce76e5f703bac0e1a1586232eebc"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 73912",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 73912",
     "args": [
       "-a",
       "sha3-384",
@@ -2304,7 +2304,7 @@
     "expected": "9d727883aa7ca3bed344919d6abb601c925ab673663df05df2ba0a5ec8c5561b03d082f23af7168165ae7188d50b586a"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 74752",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 74752",
     "args": [
       "-a",
       "sha3-384",
@@ -2316,7 +2316,7 @@
     "expected": "7958dd0cb546cb3955135ef414ac80ccfde35e4e327ced33fec9d30b79030f5a88ed1ec13668a785304755123d6a831f"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 75592",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 75592",
     "args": [
       "-a",
       "sha3-384",
@@ -2328,7 +2328,7 @@
     "expected": "55155be7412e73104fa05d232de8f165b3f7b87f653d7383d5a6552e36cb715e254a6e5bb7cfa683e238e0ff1a1df6c7"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 76432",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 76432",
     "args": [
       "-a",
       "sha3-384",
@@ -2340,7 +2340,7 @@
     "expected": "ab2345156bcc41116e73789ff8d26874c20162471c5a141a0106304f96bcf4e2feedb938cc4fb16fd9c7219559922400"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 77272",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 77272",
     "args": [
       "-a",
       "sha3-384",
@@ -2352,7 +2352,7 @@
     "expected": "eb9c6076ab4b1e0e9c78043556413625a5ce33665e65833c09fb7a8b4a811cca131ce1595896e841f4776da2fef73b7c"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 78112",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 78112",
     "args": [
       "-a",
       "sha3-384",
@@ -2364,7 +2364,7 @@
     "expected": "f67af14a7421616242788e317874e4b33502814d362c395502efd81f61a345eabf69389ce29c50b8dc1a44bbfcbd7d6f"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 78952",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 78952",
     "args": [
       "-a",
       "sha3-384",
@@ -2376,7 +2376,7 @@
     "expected": "929437946adc23855a1ba1f559ae8bf47168ff9afa532ca6a811bff7a011bc641100e11ad62ebcc70aa67ee99c3646d6"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 79792",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 79792",
     "args": [
       "-a",
       "sha3-384",
@@ -2388,7 +2388,7 @@
     "expected": "768025dfc56113f1d8985eea6317b8e0da53d6975b46cfba168be6c17b9bd0ae609aa81e51e626482161bf7a93d324bd"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 80632",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 80632",
     "args": [
       "-a",
       "sha3-384",
@@ -2400,7 +2400,7 @@
     "expected": "f73770a8212733fcc77c2a13842b85beccfda94c868afca799b8a212da858465f4b45d219cae4b339e65b6b3a4b4b67b"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 81472",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 81472",
     "args": [
       "-a",
       "sha3-384",
@@ -2412,7 +2412,7 @@
     "expected": "e0ab94d79b2d8af06ca70d2f10a1f72f3c07d33b262026a716b549cbf94b77b59b2eac388347f5ae4842b8983cf3c4bc"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 82312",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 82312",
     "args": [
       "-a",
       "sha3-384",
@@ -2424,7 +2424,7 @@
     "expected": "4f2f500f13d5131b59895b6f409ccd49635fbf7a2eb54fe74e945d5c01029f15c76bb7949141d53deefd4c4d7b8f8252"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 83152",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 83152",
     "args": [
       "-a",
       "sha3-384",
@@ -2436,7 +2436,7 @@
     "expected": "9681c01fa5d54880bb1782486f533e5c3e286bb448256855ce24e0b0622d8e04deff7246736c98a40ea14c7368b87c69"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 83992",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 83992",
     "args": [
       "-a",
       "sha3-384",
@@ -2448,7 +2448,7 @@
     "expected": "8e6124f7635f258cd2f94af5f072e948fc632d3ddcb2f269e4b6bcfa116231b19181ded309458cd4b248bff73eb470c1"
   },
   {
-    "desc": "MDLen = 384, MsgLen = 84832",
+    "desc": "Algo = sha3-384, MDLen = 384, MsgLen = 84832",
     "args": [
       "-a",
       "sha3-384",

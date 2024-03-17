@@ -1,6 +1,6 @@
 [
   {
-    "desc": "MDLen = 256, MsgLen = 0",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 0",
     "args": [
       "-a",
       "sha3-256",
@@ -12,7 +12,7 @@
     "expected": "a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 8",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 8",
     "args": [
       "-a",
       "sha3-256",
@@ -24,7 +24,7 @@
     "expected": "f0d04dd1e6cfc29a4460d521796852f25d9ef8d28b44ee91ff5b759d72c1e6d6"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 16",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 16",
     "args": [
       "-a",
       "sha3-256",
@@ -36,7 +36,7 @@
     "expected": "94279e8f5ccdf6e17f292b59698ab4e614dfe696a46c46da78305fc6a3146ab7"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 24",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 24",
     "args": [
       "-a",
       "sha3-256",
@@ -48,7 +48,7 @@
     "expected": "9d0ff086cd0ec06a682c51c094dc73abdc492004292344bd41b82a60498ccfdb"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 32",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 32",
     "args": [
       "-a",
       "sha3-256",
@@ -60,7 +60,7 @@
     "expected": "3a42b68ab079f28c4ca3c752296f279006c4fe78b1eb79d989777f051e4046ae"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 40",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 40",
     "args": [
       "-a",
       "sha3-256",
@@ -72,7 +72,7 @@
     "expected": "53a018937221081d09ed0497377e32a1fa724025dfdc1871fa503d545df4b40d"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 48",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 48",
     "args": [
       "-a",
       "sha3-256",
@@ -84,7 +84,7 @@
     "expected": "2294f8d3834f24aa9037c431f8c233a66a57b23fa3de10530bbb6911f6e1850f"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 56",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 56",
     "args": [
       "-a",
       "sha3-256",
@@ -96,7 +96,7 @@
     "expected": "cfa55031e716bbd7a83f2157513099e229a88891bb899d9ccd317191819998f8"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 64",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 64",
     "args": [
       "-a",
       "sha3-256",
@@ -108,7 +108,7 @@
     "expected": "dbb8be5dec1d715bd117b24566dc3f24f2cc0c799795d0638d9537481ef1e03e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 72",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 72",
     "args": [
       "-a",
       "sha3-256",
@@ -120,7 +120,7 @@
     "expected": "fd09b3501888445ffc8c3bb95d106440ceee469415fce1474743273094306e2e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 80",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 80",
     "args": [
       "-a",
       "sha3-256",
@@ -132,7 +132,7 @@
     "expected": "cc4e5a216b01f987f24ab9cad5eb196e89d32ed4aac85acb727e18e40ceef00e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 88",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 88",
     "args": [
       "-a",
       "sha3-256",
@@ -144,7 +144,7 @@
     "expected": "79bef78c78aa71e11a3375394c2562037cd0f82a033b48a6cc932cc43358fd9e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 96",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 96",
     "args": [
       "-a",
       "sha3-256",
@@ -156,7 +156,7 @@
     "expected": "b697556cb30d6df448ee38b973cb6942559de4c2567b1556240188c55ec0841c"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 104",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 104",
     "args": [
       "-a",
       "sha3-256",
@@ -168,7 +168,7 @@
     "expected": "69dfc3a25865f3535f18b4a7bd9c0c69d78455f1fc1f4bf4e29fc82bf32818ec"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 112",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 112",
     "args": [
       "-a",
       "sha3-256",
@@ -180,7 +180,7 @@
     "expected": "fe7e68ae3e1a91944e4d1d2146d9360e5333c099a256f3711edc372bc6eeb226"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 120",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 120",
     "args": [
       "-a",
       "sha3-256",
@@ -192,7 +192,7 @@
     "expected": "229a7702448c640f55dafed08a52aa0b1139657ba9fc4c5eb8587e174ecd9b92"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 128",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 128",
     "args": [
       "-a",
       "sha3-256",
@@ -204,7 +204,7 @@
     "expected": "b87d9e4722edd3918729ded9a6d03af8256998ee088a1ae662ef4bcaff142a96"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 136",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 136",
     "args": [
       "-a",
       "sha3-256",
@@ -216,7 +216,7 @@
     "expected": "6c2de3c95900a1bcec6bd4ca780056af4acf3aa36ee640474b6e870187f59361"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 144",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 144",
     "args": [
       "-a",
       "sha3-256",
@@ -228,7 +228,7 @@
     "expected": "ee9062f39720b821b88be5e64621d7e0ca026a9fe7248d78150b14bdbaa40bed"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 152",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 152",
     "args": [
       "-a",
       "sha3-256",
@@ -240,7 +240,7 @@
     "expected": "7aaca80dbeb8dc3677d18b84795985463650d72f2543e0ec709c9e70b8cd7b79"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 160",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 160",
     "args": [
       "-a",
       "sha3-256",
@@ -252,7 +252,7 @@
     "expected": "6a12e535dbfddab6d374058d92338e760b1a211451a6c09be9b61ee22f3bb467"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 168",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 168",
     "args": [
       "-a",
       "sha3-256",
@@ -264,7 +264,7 @@
     "expected": "d2b7717864e9438dd02a4f8bb0203b77e2d3cd8f8ffcf9dc684e63de5ef39f0d"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 176",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 176",
     "args": [
       "-a",
       "sha3-256",
@@ -276,7 +276,7 @@
     "expected": "7f497913318defdc60c924b3704b65ada7ca3ba203f23fb918c6fb03d4b0c0da"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 184",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 184",
     "args": [
       "-a",
       "sha3-256",
@@ -288,7 +288,7 @@
     "expected": "435e276f06ae73aa5d5d6018f58e0f009be351eada47b677c2f7c06455f384e7"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 192",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 192",
     "args": [
       "-a",
       "sha3-256",
@@ -300,7 +300,7 @@
     "expected": "cdfd1afa793e48fd0ee5b34dfc53fbcee43e9d2ac21515e4746475453ab3831f"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 200",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 200",
     "args": [
       "-a",
       "sha3-256",
@@ -312,7 +312,7 @@
     "expected": "25005d10e84ff97c74a589013be42fb37f68db64bdfc7626efc0dd628077493a"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 208",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 208",
     "args": [
       "-a",
       "sha3-256",
@@ -324,7 +324,7 @@
     "expected": "157a52b0477639b3bc179667b35c1cdfbb3eef845e4486f0f84a526e940b518c"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 216",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 216",
     "args": [
       "-a",
       "sha3-256",
@@ -336,7 +336,7 @@
     "expected": "3ddecf5bba51643cd77ebde2141c8545f862067b209990d4cb65bfa65f4fa0c0"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 224",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 224",
     "args": [
       "-a",
       "sha3-256",
@@ -348,7 +348,7 @@
     "expected": "9511abd13c756772b852114578ef9b96f9dc7d0f2b8dcde6ea7d1bd14c518890"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 232",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 232",
     "args": [
       "-a",
       "sha3-256",
@@ -360,7 +360,7 @@
     "expected": "540acf81810a199996a612e885781308802fe460e9c638cc022e17076be8597a"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 240",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 240",
     "args": [
       "-a",
       "sha3-256",
@@ -372,7 +372,7 @@
     "expected": "6b2f2547781449d4fa158180a178ef68d7056121bf8a2f2f49891afc24978521"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 248",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 248",
     "args": [
       "-a",
       "sha3-256",
@@ -384,7 +384,7 @@
     "expected": "ea7952ad759653cd47a18004ac2dbb9cf4a1e7bba8a530cf070570c711a634ea"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 256",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 256",
     "args": [
       "-a",
       "sha3-256",
@@ -396,7 +396,7 @@
     "expected": "64537b87892835ff0963ef9ad5145ab4cfce5d303a0cb0415b3b03f9d16e7d6b"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 264",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 264",
     "args": [
       "-a",
       "sha3-256",
@@ -408,7 +408,7 @@
     "expected": "0afe03b175a1c9489663d8a6f66d1b24aba5139b996400b8bd3d0e1a79580e4d"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 272",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 272",
     "args": [
       "-a",
       "sha3-256",
@@ -420,7 +420,7 @@
     "expected": "dc5bebe05c499496a7ebfe04309cae515e3ea57c5d2a5fe2e6801243dd52c93b"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 280",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 280",
     "args": [
       "-a",
       "sha3-256",
@@ -432,7 +432,7 @@
     "expected": "3305c9d28e05288a2d13994d64c88d3506399cd62b2b544213cf3539a8e92e2e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 288",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 288",
     "args": [
       "-a",
       "sha3-256",
@@ -444,7 +444,7 @@
     "expected": "3c00bf3e12ade9d2de2756506f809f147c8d6adc22e7bb666e0b1d26469e65a5"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 296",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 296",
     "args": [
       "-a",
       "sha3-256",
@@ -456,7 +456,7 @@
     "expected": "a87e5c78837d7be0060d8f5eda975489ec961b28d7088f42a70f92414ae17793"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 304",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 304",
     "args": [
       "-a",
       "sha3-256",
@@ -468,7 +468,7 @@
     "expected": "746bf845c08aa186b5fe1ca35528232c4a491a3a2a32cd23e990bc603f3268ae"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 312",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 312",
     "args": [
       "-a",
       "sha3-256",
@@ -480,7 +480,7 @@
     "expected": "a3257baf14ca16e1137dc5158703f3b02ebc74fc7677165fe86d4be1f38e2f7c"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 320",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 320",
     "args": [
       "-a",
       "sha3-256",
@@ -492,7 +492,7 @@
     "expected": "e25c44802c5cf2e9f633e683d37aa8c8db8a0e21c367808121d14d96c8a400b5"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 328",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 328",
     "args": [
       "-a",
       "sha3-256",
@@ -504,7 +504,7 @@
     "expected": "e02c1b197979c44a5a50d05ea4882c16d8205c2e3344265f8fe0e80aed06c065"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 336",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 336",
     "args": [
       "-a",
       "sha3-256",
@@ -516,7 +516,7 @@
     "expected": "2da21867cd6b5402d3caff92a05fddfca90199fd51a94a066af164ce3d36c949"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 344",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 344",
     "args": [
       "-a",
       "sha3-256",
@@ -528,7 +528,7 @@
     "expected": "f91b016d013ede8d6a2e1efd4c0dd99417da8b0222d787867ca02b0ea2e80e45"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 352",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 352",
     "args": [
       "-a",
       "sha3-256",
@@ -540,7 +540,7 @@
     "expected": "3acbebf8eda9d3c99a6b6b666366c391e8200d55fd33ad8680734def1dc7ae85"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 360",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 360",
     "args": [
       "-a",
       "sha3-256",
@@ -552,7 +552,7 @@
     "expected": "02bcd9ea4f1aa5276f38e30351a14a072bc5d53a52d04d559a65ca46f1bcb56e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 368",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 368",
     "args": [
       "-a",
       "sha3-256",
@@ -564,7 +564,7 @@
     "expected": "c70a874d786cd0f3f09fa4dc1bb8f551d45f26d77ad63de1a9fdfb3b7c09c041"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 376",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 376",
     "args": [
       "-a",
       "sha3-256",
@@ -576,7 +576,7 @@
     "expected": "36c73d11d450784eb99af068cd4e1cbc5768c8a2118010aceec6d852dda80d95"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 384",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 384",
     "args": [
       "-a",
       "sha3-256",
@@ -588,7 +588,7 @@
     "expected": "90fc3193552ec71d3315ebbb807913afd4cd2f0833a65e40d011d64de5e66513"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 392",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 392",
     "args": [
       "-a",
       "sha3-256",
@@ -600,7 +600,7 @@
     "expected": "5c4b6ceac9441defa99b10b805a725d4018b74b3e1f24ad8934fc89b41b8fd9e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 400",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 400",
     "args": [
       "-a",
       "sha3-256",
@@ -612,7 +612,7 @@
     "expected": "e21806ce766bbce8b8d1b99bcf162fd154f54692351aec8e6914e1a694bda9ee"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 408",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 408",
     "args": [
       "-a",
       "sha3-256",
@@ -624,7 +624,7 @@
     "expected": "f5581403a082bbf5ad7e09bdfccc43bf9683ebc88291d71d9ce885a37e952bd6"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 416",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 416",
     "args": [
       "-a",
       "sha3-256",
@@ -636,7 +636,7 @@
     "expected": "faed76ff5a1cd99183b311e502c54e516d70a87050cf8961c8cd46f65c1358cd"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 424",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 424",
     "args": [
       "-a",
       "sha3-256",
@@ -648,7 +648,7 @@
     "expected": "811529c600c9d780f796a29a6b3e89f8a12b3f29c36f72b06cca7edc36f48dc0"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 432",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 432",
     "args": [
       "-a",
       "sha3-256",
@@ -660,7 +660,7 @@
     "expected": "b0fceecdaef6c76d5fc3835b523ce2416f4a9b9bd1f90234445df0f2b689f2f5"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 440",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 440",
     "args": [
       "-a",
       "sha3-256",
@@ -672,7 +672,7 @@
     "expected": "e33dbdc0acc23fcfad3c759c4333410bd3a40efb1366ade157d2c81d65a0a6c7"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 448",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 448",
     "args": [
       "-a",
       "sha3-256",
@@ -684,7 +684,7 @@
     "expected": "d000eafca34815783bed9b050c6901c97f2e77d4771a0ed724dd8f6ff1448791"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 456",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 456",
     "args": [
       "-a",
       "sha3-256",
@@ -696,7 +696,7 @@
     "expected": "3479a9617a3adca35854c08fe987c2fe7ff2b01b04f2d952c107b3f066420551"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 464",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 464",
     "args": [
       "-a",
       "sha3-256",
@@ -708,7 +708,7 @@
     "expected": "9c824a00e068d2fda73f9c2e7798e8d9394f57f94df0edeb132e78e8a379a0cf"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 472",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 472",
     "args": [
       "-a",
       "sha3-256",
@@ -720,7 +720,7 @@
     "expected": "fa9726ccb068c0adb5d20079c35a318b3d951eb43b196c509ab790b7e9202207"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 480",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 480",
     "args": [
       "-a",
       "sha3-256",
@@ -732,7 +732,7 @@
     "expected": "8bd8d494a41acda4b7cd2994badaecff0f46ba2743458f6c3fdc0226f9492ede"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 488",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 488",
     "args": [
       "-a",
       "sha3-256",
@@ -744,7 +744,7 @@
     "expected": "e9e3b3da648cf230f1973f3814eb81316d2a496826ea39adf4674576f97e1167"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 496",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 496",
     "args": [
       "-a",
       "sha3-256",
@@ -756,7 +756,7 @@
     "expected": "766630993fbb651fd8d3603e3eebc81931fb1302a46791df259a6e13ca2cba9f"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 504",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 504",
     "args": [
       "-a",
       "sha3-256",
@@ -768,7 +768,7 @@
     "expected": "d3212abca1100eb7658c0f916daf2692c57a47b772ee031c4ec6ad28a4a46de9"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 512",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 512",
     "args": [
       "-a",
       "sha3-256",
@@ -780,7 +780,7 @@
     "expected": "9c9160268608ef09fe0bd3927d3dffa0c73499c528943e837be467b50e5c1f1e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 520",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 520",
     "args": [
       "-a",
       "sha3-256",
@@ -792,7 +792,7 @@
     "expected": "8703a1f7424c3535f1d4f88c9b03d194893499478969fbb0a5dc2808a069ab8f"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 528",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 528",
     "args": [
       "-a",
       "sha3-256",
@@ -804,7 +804,7 @@
     "expected": "2fa180209bf6b4ad13c357d917fabb3e52c101a0cdb3f2299fa0f7f81dfb848e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 536",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 536",
     "args": [
       "-a",
       "sha3-256",
@@ -816,7 +816,7 @@
     "expected": "558ea7c800b687380cce7e06006e1ebe0b89973f788c4caac5780f22dbf382e8"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 544",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 544",
     "args": [
       "-a",
       "sha3-256",
@@ -828,7 +828,7 @@
     "expected": "085b343b08516f320a9b90fe50440a8bc51ae0850fa38d88724a4d6bd3df1ad4"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 552",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 552",
     "args": [
       "-a",
       "sha3-256",
@@ -840,7 +840,7 @@
     "expected": "f9dbb88c5bb4415e17dee9222174538eeab371b12d8d572cfdf55b806e3158e4"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 560",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 560",
     "args": [
       "-a",
       "sha3-256",
@@ -852,7 +852,7 @@
     "expected": "3571326a1577c400b967ac1c26df2a0dcf5db7070eac262a8071da16afa7c419"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 568",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 568",
     "args": [
       "-a",
       "sha3-256",
@@ -864,7 +864,7 @@
     "expected": "62aea8760759a996f4d855e99bcd79e9a57ea362522d9b42fd82c12c9294a217"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 576",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 576",
     "args": [
       "-a",
       "sha3-256",
@@ -876,7 +876,7 @@
     "expected": "18deba74e9d93ae7df93c6c316ef201bf5e3a661e68868e14d4f56264f5d858c"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 584",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 584",
     "args": [
       "-a",
       "sha3-256",
@@ -888,7 +888,7 @@
     "expected": "5a5a438b57c1b3ce8756094252362afeaa9fc91cd45b385d16994ec8af49aa6b"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 592",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 592",
     "args": [
       "-a",
       "sha3-256",
@@ -900,7 +900,7 @@
     "expected": "be54f2e435f760d5b77c0ae61ef0aa7f5f3366f47819f350dc8a39aff8c73a8f"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 600",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 600",
     "args": [
       "-a",
       "sha3-256",
@@ -912,7 +912,7 @@
     "expected": "60d80f1c703dad5da93db222fb45fb7fa768c8aa2787f4b81f1e00365b8f49e2"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 608",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 608",
     "args": [
       "-a",
       "sha3-256",
@@ -924,7 +924,7 @@
     "expected": "7a4fe37f296991121792dd7c2c30390725a1eebbf20b766a5a1c3c6c3646d996"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 616",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 616",
     "args": [
       "-a",
       "sha3-256",
@@ -936,7 +936,7 @@
     "expected": "51cc71b6934afcf28fa49942b76323f36cd6a0aecc5a0e49c10994ddcabdbb80"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 624",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 624",
     "args": [
       "-a",
       "sha3-256",
@@ -948,7 +948,7 @@
     "expected": "1780e52e306858478290c46b04d8068f078a7f6ad8e3790a68fc40dccfbdadc9"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 632",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 632",
     "args": [
       "-a",
       "sha3-256",
@@ -960,7 +960,7 @@
     "expected": "f4afa72f3e489ad473dc247aae353da99fb005b490e2c4e1f5bd16a99732b100"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 640",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 640",
     "args": [
       "-a",
       "sha3-256",
@@ -972,7 +972,7 @@
     "expected": "89198e2363efd4e0ba7a8a45f690f02712e6f856668517bae118d11e9a9dc7cc"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 648",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 648",
     "args": [
       "-a",
       "sha3-256",
@@ -984,7 +984,7 @@
     "expected": "abef81b33591eedcac0cf32fb5a91c931f2d719c37801409133552170ce50dbf"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 656",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 656",
     "args": [
       "-a",
       "sha3-256",
@@ -996,7 +996,7 @@
     "expected": "5a67284d39e4f37caa64ca1a54593c35f6d8f3a3ec20d460393a39f6f57c4486"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 664",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 664",
     "args": [
       "-a",
       "sha3-256",
@@ -1008,7 +1008,7 @@
     "expected": "aecf5dab6fea9ffd1bce2cdfeec0bee9d214a669e8306d5b6688afa8957fc91f"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 672",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 672",
     "args": [
       "-a",
       "sha3-256",
@@ -1020,7 +1020,7 @@
     "expected": "182d6e4316f4bc18d7163b1b21462d99f99c6f34d2c00ee771ce54fd6c5018b9"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 680",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 680",
     "args": [
       "-a",
       "sha3-256",
@@ -1032,7 +1032,7 @@
     "expected": "121057b0b9a627be07dc54e7d1b719f0a3df9d20d29a03a38b5df0a51503df93"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 688",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 688",
     "args": [
       "-a",
       "sha3-256",
@@ -1044,7 +1044,7 @@
     "expected": "c237194b902e48dca5bd096cb51562079d0cdccb2af8088197676c17b0896be2"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 696",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 696",
     "args": [
       "-a",
       "sha3-256",
@@ -1056,7 +1056,7 @@
     "expected": "377d1cffb626735810b613fd31ef9bbb4577cd752521abe3a41afa921e623da0"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 704",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 704",
     "args": [
       "-a",
       "sha3-256",
@@ -1068,7 +1068,7 @@
     "expected": "85c7a52d53f7b41162ea9f1ef0d07c3fb8f0ec621617f88cb3828ebe5388ab3d"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 712",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 712",
     "args": [
       "-a",
       "sha3-256",
@@ -1080,7 +1080,7 @@
     "expected": "b2eb3762a743d252567796692863b55636cb088e75527efd7306a2f6e3a48a85"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 720",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 720",
     "args": [
       "-a",
       "sha3-256",
@@ -1092,7 +1092,7 @@
     "expected": "69966e89b7bc7f39cd85791b92180ff3fed658d8240e393e1e6d7c24b8d0ac95"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 728",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 728",
     "args": [
       "-a",
       "sha3-256",
@@ -1104,7 +1104,7 @@
     "expected": "44c00cf622beca0fad08539ea466dcbe4476aef6b277c450ce8282fbc9a49111"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 736",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 736",
     "args": [
       "-a",
       "sha3-256",
@@ -1116,7 +1116,7 @@
     "expected": "6d5260384f3cefd3758fb900dcba3730d2b23cee03d197abeff01369dc73c180"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 744",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 744",
     "args": [
       "-a",
       "sha3-256",
@@ -1128,7 +1128,7 @@
     "expected": "d88e5f3b2d0a698fd943233760a3000a3360d9040e7374b22e39ea58d868102d"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 752",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 752",
     "args": [
       "-a",
       "sha3-256",
@@ -1140,7 +1140,7 @@
     "expected": "8a8ab6cf5c02b9ae8f4c170740eff1592f3eda11d3420ac8b421d93cfbb35db8"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 760",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 760",
     "args": [
       "-a",
       "sha3-256",
@@ -1152,7 +1152,7 @@
     "expected": "8d154bf6f9cb72efc0d8b3927a8f690060d1d48bbe5cc72094d2c8b149a75132"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 768",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 768",
     "args": [
       "-a",
       "sha3-256",
@@ -1164,7 +1164,7 @@
     "expected": "3f626c8bb20a132495bd3022b3fcd0ce0604b91a9d70132dab4099f73dde23d5"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 776",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 776",
     "args": [
       "-a",
       "sha3-256",
@@ -1176,7 +1176,7 @@
     "expected": "9098ea34c40b541b153e80a8bd92da19432b18b7d329760b302f8a54c395dd06"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 784",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 784",
     "args": [
       "-a",
       "sha3-256",
@@ -1188,7 +1188,7 @@
     "expected": "b0c04f24bb6d3d4fcbfdf9222d0e886f1eb60a0566a478085f7623a025a5b981"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 792",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 792",
     "args": [
       "-a",
       "sha3-256",
@@ -1200,7 +1200,7 @@
     "expected": "f930d79360b581b1bbfdeac57133a339444f5c44538c921631eabaf058277d32"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 800",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 800",
     "args": [
       "-a",
       "sha3-256",
@@ -1212,7 +1212,7 @@
     "expected": "19795657e08cfbb247a17cf209a4905f46e4ddf58eea47feee0be9bb9f5c460f"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 808",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 808",
     "args": [
       "-a",
       "sha3-256",
@@ -1224,7 +1224,7 @@
     "expected": "128fb4114e43eefd19277c708be9e6873e66d7fd59c58a1485b7b015facfa795"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 816",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 816",
     "args": [
       "-a",
       "sha3-256",
@@ -1236,7 +1236,7 @@
     "expected": "03e782b01a4ba10f640470bb3cae487eb9cbbaab8c9941978b194f6a312cf79e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 824",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 824",
     "args": [
       "-a",
       "sha3-256",
@@ -1248,7 +1248,7 @@
     "expected": "f64b7ab243ce6e6c04b483888ba8a655465c21d95eb60c7b8d6e566a3811bae2"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 832",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 832",
     "args": [
       "-a",
       "sha3-256",
@@ -1260,7 +1260,7 @@
     "expected": "5f76962fd3d373e5db2953c0823a51fe81f874450bedf7e46876394b04d3ef66"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 840",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 840",
     "args": [
       "-a",
       "sha3-256",
@@ -1272,7 +1272,7 @@
     "expected": "d107ee6ee4a58871a33c49657faa2573e475f11918c4a4e3801d0e17fb93c6e3"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 848",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 848",
     "args": [
       "-a",
       "sha3-256",
@@ -1284,7 +1284,7 @@
     "expected": "02ab2dbb02944354799051247b1a25c19f3696e1afcb502b859e83798b33fd77"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 856",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 856",
     "args": [
       "-a",
       "sha3-256",
@@ -1296,7 +1296,7 @@
     "expected": "8cc4d39b2f5ba0bc9d2ee2a8777cf08533e60cc69b65a7b31c5c2121193aa31e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 864",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 864",
     "args": [
       "-a",
       "sha3-256",
@@ -1308,7 +1308,7 @@
     "expected": "c99c7191b34c9ad3f941d4ad442cc865205cbb4c2a6927c592e831cbc4d36fcf"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 872",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 872",
     "args": [
       "-a",
       "sha3-256",
@@ -1320,7 +1320,7 @@
     "expected": "6d2f57a7e42b35369cf2cd60caf9e65aca7d9aa019e6824bb806348f1acf3c7c"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 880",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 880",
     "args": [
       "-a",
       "sha3-256",
@@ -1332,7 +1332,7 @@
     "expected": "14b631f0f00a3024ad1810dabf02711e28449668abe27f69380942268968d4f6"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 888",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 888",
     "args": [
       "-a",
       "sha3-256",
@@ -1344,7 +1344,7 @@
     "expected": "574fd82a9fceb8f7bbbf244d16e0412cbda8153b720846c32b8f10fe5779a881"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 896",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 896",
     "args": [
       "-a",
       "sha3-256",
@@ -1356,7 +1356,7 @@
     "expected": "344ec86642eabb206b2fd930e4c5dde78aa878577d6c271cb0069d4999495652"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 904",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 904",
     "args": [
       "-a",
       "sha3-256",
@@ -1368,7 +1368,7 @@
     "expected": "b7ba998726477c32792e9c3eddc1cb6feb7c3933e49f2e7590d8ce7a2113e6f8"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 912",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 912",
     "args": [
       "-a",
       "sha3-256",
@@ -1380,7 +1380,7 @@
     "expected": "2f26b96c1fa3f3dee728f17584e733b4189821c659b8885a5fb1d12d60d2aaa9"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 920",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 920",
     "args": [
       "-a",
       "sha3-256",
@@ -1392,7 +1392,7 @@
     "expected": "e3edbc8c42ce5d2384dfb24fb1de5d4798b1bc3cc78c97033894040dfa6feb6c"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 928",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 928",
     "args": [
       "-a",
       "sha3-256",
@@ -1404,7 +1404,7 @@
     "expected": "80ed0a702812297c2aa1b6b4b530c2b5ed17ecfba6d51791cf152d4303ced2e6"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 936",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 936",
     "args": [
       "-a",
       "sha3-256",
@@ -1416,7 +1416,7 @@
     "expected": "654eccefd0a4fdb2ac0ab56288c64399b37bc4d57ff4a9f1cce94362fc491bda"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 944",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 944",
     "args": [
       "-a",
       "sha3-256",
@@ -1428,7 +1428,7 @@
     "expected": "135ec8b144a667dceae8fadd287df81c10ef3ebef87ff2fb56e60ae708a88f3b"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 952",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 952",
     "args": [
       "-a",
       "sha3-256",
@@ -1440,7 +1440,7 @@
     "expected": "a6a1b8a26f6f440f19f16dce1d3001477d73ee7f6c374bce2922167b81970d6a"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 960",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 960",
     "args": [
       "-a",
       "sha3-256",
@@ -1452,7 +1452,7 @@
     "expected": "fc5159f0ddd6d765c85fcc3fc3ac1dc0d317d8ea0b110e96ac9f7a398dc386c5"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 968",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 968",
     "args": [
       "-a",
       "sha3-256",
@@ -1464,7 +1464,7 @@
     "expected": "8aa07742e6f1f47ad020ed6684edc8dba4af36b782955f0f972be3ae980aea0e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 976",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 976",
     "args": [
       "-a",
       "sha3-256",
@@ -1476,7 +1476,7 @@
     "expected": "a07049b6ebd7b355479a3d802fda436b83ae6747d741cf9626f7c62f47cbd563"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 984",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 984",
     "args": [
       "-a",
       "sha3-256",
@@ -1488,7 +1488,7 @@
     "expected": "09c60fec5a089a23f5da3ed2492aa21fcf7aa36183850fafc15ae8c63f596db0"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 992",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 992",
     "args": [
       "-a",
       "sha3-256",
@@ -1500,7 +1500,7 @@
     "expected": "fe2d4183ccdaa816b4446a9b6c07d0ba4b42ac743599db5dc482b1941f443c71"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 1000",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 1000",
     "args": [
       "-a",
       "sha3-256",
@@ -1512,7 +1512,7 @@
     "expected": "744538e1ae1cd7357710b56c3bc6f1bd7a8564118a1e0f9acc30fcf0b5396eef"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 1008",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 1008",
     "args": [
       "-a",
       "sha3-256",
@@ -1524,7 +1524,7 @@
     "expected": "58b17843bc851a721c5a258eef57b3854d02190e732d9b8e7a9f926ac409c173"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 1016",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 1016",
     "args": [
       "-a",
       "sha3-256",
@@ -1536,7 +1536,7 @@
     "expected": "f7c92a3fb7f180370d628be78de874d693f74ccc7a54c741634258d8c512fd7f"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 1024",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 1024",
     "args": [
       "-a",
       "sha3-256",
@@ -1548,7 +1548,7 @@
     "expected": "8814630a39dcb99792cc4e08cae5dd078973d15cd19f17bacf04deda9e62c45f"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 1032",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 1032",
     "args": [
       "-a",
       "sha3-256",
@@ -1560,7 +1560,7 @@
     "expected": "9b690531dee948a9c559a2e0efab2ec824151a9175f2730a030b748d07cbaa7f"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 1040",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 1040",
     "args": [
       "-a",
       "sha3-256",
@@ -1572,7 +1572,7 @@
     "expected": "1ac7cc7e2e8ea14fb1b90096f41265100712c5dd41519d78b2786cfb6355af72"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 1048",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 1048",
     "args": [
       "-a",
       "sha3-256",
@@ -1584,7 +1584,7 @@
     "expected": "c163cd43de224ac5c262ae39db746cfcad66074ebaec4a6da23d86b310520f21"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 1056",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 1056",
     "args": [
       "-a",
       "sha3-256",
@@ -1596,7 +1596,7 @@
     "expected": "6c3e93f2b49f493344cc3eb1e9454f79363032beee2f7ea65b3d994b5cae438f"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 1064",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 1064",
     "args": [
       "-a",
       "sha3-256",
@@ -1608,7 +1608,7 @@
     "expected": "b10adeb6a9395a48788931d45a7b4e4f69300a76d8b716c40c614c3113a0f051"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 1072",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 1072",
     "args": [
       "-a",
       "sha3-256",
@@ -1620,7 +1620,7 @@
     "expected": "3293a4b9aeb8a65e1014d3847500ffc8241594e9c4564cbd7ce978bfa50767fe"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 1080",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 1080",
     "args": [
       "-a",
       "sha3-256",
@@ -1632,7 +1632,7 @@
     "expected": "f82d9602b231d332d902cb6436b15aef89acc591cb8626233ced20c0a6e80d7a"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 1088",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 1088",
     "args": [
       "-a",
       "sha3-256",
@@ -1644,7 +1644,7 @@
     "expected": "4beae3515ba35ec8cbd1d94567e22b0d7809c466abfbafe9610349597ba15b45"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 2184",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 2184",
     "args": [
       "-a",
       "sha3-256",
@@ -1656,7 +1656,7 @@
     "expected": "cb5648a1d61c6c5bdacd96f81c9591debc3950dcf658145b8d996570ba881a05"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 3280",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 3280",
     "args": [
       "-a",
       "sha3-256",
@@ -1668,7 +1668,7 @@
     "expected": "095dcd0bc55206d2e1e715fb7173fc16a81979f278495dfc69a6d8f3174eba5a"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 4376",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 4376",
     "args": [
       "-a",
       "sha3-256",
@@ -1680,7 +1680,7 @@
     "expected": "cb1c691c87244c0caf733aacd427f83412cd48820b358c1b15dd9fadee54e5af"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 5472",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 5472",
     "args": [
       "-a",
       "sha3-256",
@@ -1692,7 +1692,7 @@
     "expected": "5ac9275e02543410359a3f364b2ae3b85763321fd6d374d13fe54314e5561b01"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 6568",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 6568",
     "args": [
       "-a",
       "sha3-256",
@@ -1704,7 +1704,7 @@
     "expected": "68f62c418a6b97026cc70f6abf8419b671ee373709fa13074e37bd39f0a50fcb"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 7664",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 7664",
     "args": [
       "-a",
       "sha3-256",
@@ -1716,7 +1716,7 @@
     "expected": "7d495ddf961cbff060f80b509f2b9e20bed95319eef61c7adb5edeec18e64713"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 8760",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 8760",
     "args": [
       "-a",
       "sha3-256",
@@ -1728,7 +1728,7 @@
     "expected": "b8d4b29b086ef6d6f73802b9e7a4f2001e384c8258e7046e6779662fd958517e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 9856",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 9856",
     "args": [
       "-a",
       "sha3-256",
@@ -1740,7 +1740,7 @@
     "expected": "b71ec00c0fcc4f8663312711540df1cd236eb52f237409415b749ff9436dc331"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 10952",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 10952",
     "args": [
       "-a",
       "sha3-256",
@@ -1752,7 +1752,7 @@
     "expected": "ad635385a289163fbaf04b5850285bfe3759774aee7fd0211d770f63985e1b44"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 12048",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 12048",
     "args": [
       "-a",
       "sha3-256",
@@ -1764,7 +1764,7 @@
     "expected": "2a6283b1c02c6aaf74c4155091ff54a904bb700077f96a9c4bd84e8e51b54d01"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 13144",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 13144",
     "args": [
       "-a",
       "sha3-256",
@@ -1776,7 +1776,7 @@
     "expected": "4e75bf3c580474575c96ec7faa03feb732379f95660b77149974133644f5d2a0"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 14240",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 14240",
     "args": [
       "-a",
       "sha3-256",
@@ -1788,7 +1788,7 @@
     "expected": "2e07737d271b9a0162eb2f4be1be54887118c462317eb6bd9f9baf1e24111848"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 15336",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 15336",
     "args": [
       "-a",
       "sha3-256",
@@ -1800,7 +1800,7 @@
     "expected": "c26d0b064e409df64819cd7c1a3b8076f19815b9823adac4e3ce0b4d3a29de18"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 16432",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 16432",
     "args": [
       "-a",
       "sha3-256",
@@ -1812,7 +1812,7 @@
     "expected": "d894b86261436362e64241e61f6b3e6589daf64dc641f60570c4c0bf3b1f2ca3"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 17528",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 17528",
     "args": [
       "-a",
       "sha3-256",
@@ -1824,7 +1824,7 @@
     "expected": "baeda8f50d302bb2a30a5bd5376af9aab5fe9f3c306613de91e5841eaf1fea17"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 18624",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 18624",
     "args": [
       "-a",
       "sha3-256",
@@ -1836,7 +1836,7 @@
     "expected": "7dfa7b3eb61c13390a56bdb01a354a51066825378ce22367a1d118d4bc47957d"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 19720",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 19720",
     "args": [
       "-a",
       "sha3-256",
@@ -1848,7 +1848,7 @@
     "expected": "e0940ea2d6369a467e4e044f65e15b28fb67bd9a8dccccc3b4291b8a14a60967"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 20816",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 20816",
     "args": [
       "-a",
       "sha3-256",
@@ -1860,7 +1860,7 @@
     "expected": "4dc502138df8ee935b203ecbf687e95bd620d9941d9cbf2da51af7fa22326b57"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 21912",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 21912",
     "args": [
       "-a",
       "sha3-256",
@@ -1872,7 +1872,7 @@
     "expected": "66ac482a9eb4ec96538a6d038f608b5bac82443b7dfb8b9bcdcbde84c33b2cff"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 23008",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 23008",
     "args": [
       "-a",
       "sha3-256",
@@ -1884,7 +1884,7 @@
     "expected": "a1f7dec21f0e2442b55c856ebca2692c69a1b27c55a4b15fea86f8622b42e62c"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 24104",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 24104",
     "args": [
       "-a",
       "sha3-256",
@@ -1896,7 +1896,7 @@
     "expected": "c7f0d250a44e261835b0d27c290c88cc8169a8d525ec034284eead1d532d6279"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 25200",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 25200",
     "args": [
       "-a",
       "sha3-256",
@@ -1908,7 +1908,7 @@
     "expected": "20e819aa8988e4a3c491673504b59ca44db6703f01094e0d87a85ce9c4d9ac4f"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 26296",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 26296",
     "args": [
       "-a",
       "sha3-256",
@@ -1920,7 +1920,7 @@
     "expected": "d2fc7ac82a34020dd5078e6d7bd60b40b5fa1ac12d88c8a2c9202485132c0542"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 27392",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 27392",
     "args": [
       "-a",
       "sha3-256",
@@ -1932,7 +1932,7 @@
     "expected": "5d07368c1ea91a707aa5bb20b2cea877d3ce8cee690442a3309a594d29d150dc"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 28488",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 28488",
     "args": [
       "-a",
       "sha3-256",
@@ -1944,7 +1944,7 @@
     "expected": "c92259dd4bac6e4b5845f21e1001610baaa767d22c0fe7ad2ed753207562f3ad"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 29584",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 29584",
     "args": [
       "-a",
       "sha3-256",
@@ -1956,7 +1956,7 @@
     "expected": "582590e5d2f49a92ef7b5e9d8de7e9d4fc8cbb14e6ff6ab1feed7015abef3e98"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 30680",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 30680",
     "args": [
       "-a",
       "sha3-256",
@@ -1968,7 +1968,7 @@
     "expected": "ad701bd6fb598f12cd765944ecf4d618185db91447d67b06c85dc330bef629bd"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 31776",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 31776",
     "args": [
       "-a",
       "sha3-256",
@@ -1980,7 +1980,7 @@
     "expected": "3f2eb4d69cffbbbe28b9eda01e8b34629d7a89ae73b568ffbd5ad117f47290fd"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 32872",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 32872",
     "args": [
       "-a",
       "sha3-256",
@@ -1992,7 +1992,7 @@
     "expected": "db4c07333bac4705998d4e084537a4783e8870fd1aaad5062f42cdbd45a77469"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 33968",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 33968",
     "args": [
       "-a",
       "sha3-256",
@@ -2004,7 +2004,7 @@
     "expected": "c18c4cb65c4a0c5d3a5c5a51420821dcf955112348ed462ec60e14679ca43073"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 35064",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 35064",
     "args": [
       "-a",
       "sha3-256",
@@ -2016,7 +2016,7 @@
     "expected": "bbb91988f2a2bfa506b090715cd93390f668338c56450acaaa17c199a5cbaed3"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 36160",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 36160",
     "args": [
       "-a",
       "sha3-256",
@@ -2028,7 +2028,7 @@
     "expected": "c1b6ba438acc1f707bf459622868baca71c4dc117dc875a0e3f075af62d8fe4e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 37256",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 37256",
     "args": [
       "-a",
       "sha3-256",
@@ -2040,7 +2040,7 @@
     "expected": "3c95e860400867fa8eb59980edfea1944560dd6f5aff84b79522281f065b7b9a"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 38352",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 38352",
     "args": [
       "-a",
       "sha3-256",
@@ -2052,7 +2052,7 @@
     "expected": "deaa55eb0401cd20f57c0d259013d78c6e1d12ecfa89e019aa40145175691ce8"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 39448",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 39448",
     "args": [
       "-a",
       "sha3-256",
@@ -2064,7 +2064,7 @@
     "expected": "44bd7e9b27fcfb301f251f7badfa340d789534f9788dd1c71f1b682c7e3c7f9f"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 40544",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 40544",
     "args": [
       "-a",
       "sha3-256",
@@ -2076,7 +2076,7 @@
     "expected": "b28a58d2d10c45c3da7121ca65bd9058bff5440665c20b89b91fcabfcaa889da"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 41640",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 41640",
     "args": [
       "-a",
       "sha3-256",
@@ -2088,7 +2088,7 @@
     "expected": "c9f2202f88385e0ebb09cbe9a94b3181ed9563781c5ef2013ac35c48c8fb802d"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 42736",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 42736",
     "args": [
       "-a",
       "sha3-256",
@@ -2100,7 +2100,7 @@
     "expected": "55c6caf52589ba999cfc460e1a2630c9c3a8dcdd88f37114849f0d156f3c1710"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 43832",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 43832",
     "args": [
       "-a",
       "sha3-256",
@@ -2112,7 +2112,7 @@
     "expected": "1468d2db8c7750f324c76fccd25957ad3052887cdd24077e49470e79f646235b"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 44928",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 44928",
     "args": [
       "-a",
       "sha3-256",
@@ -2124,7 +2124,7 @@
     "expected": "b19aba43e2658d6251f9b3e50672d81e3b33708532122f5653485bfe87706bbc"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 46024",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 46024",
     "args": [
       "-a",
       "sha3-256",
@@ -2136,7 +2136,7 @@
     "expected": "af47fcd5f2c8dd20ce9b83ec045e2e1e25d8bf198aaac93f6eb2d14e22954710"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 47120",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 47120",
     "args": [
       "-a",
       "sha3-256",
@@ -2148,7 +2148,7 @@
     "expected": "f2d1ac4d7f4fc1fc01f18aab27b0480df6eb00c252cf348c3d08b4074029801c"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 48216",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 48216",
     "args": [
       "-a",
       "sha3-256",
@@ -2160,7 +2160,7 @@
     "expected": "8f95bfb5f6dd784b56f92c1587cf197cf33efe3c909625079a0619c2a4b70873"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 49312",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 49312",
     "args": [
       "-a",
       "sha3-256",
@@ -2172,7 +2172,7 @@
     "expected": "7836c49db6320eca9779a863e6f75489b7a2fd7461f5bb1c840d987725713aad"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 50408",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 50408",
     "args": [
       "-a",
       "sha3-256",
@@ -2184,7 +2184,7 @@
     "expected": "f65f672462adca962f14b2a1ad3d3f4b21c2f86b929fd1e0ca5566bd13cf2b14"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 51504",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 51504",
     "args": [
       "-a",
       "sha3-256",
@@ -2196,7 +2196,7 @@
     "expected": "925153994e2d005d57cdde862500067c938090a8a77f09434ac2f90d8d68d4cc"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 52600",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 52600",
     "args": [
       "-a",
       "sha3-256",
@@ -2208,7 +2208,7 @@
     "expected": "2fea9467bc8a3fc983c635001a0348f9f946bd7e6eeeceb4378ed05150893508"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 53696",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 53696",
     "args": [
       "-a",
       "sha3-256",
@@ -2220,7 +2220,7 @@
     "expected": "5ff1cb878d8aad04ea9e1e09431c52f02caa6a4cf60e076dedf16a56c973e32c"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 54792",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 54792",
     "args": [
       "-a",
       "sha3-256",
@@ -2232,7 +2232,7 @@
     "expected": "143ff57b839fcb4ed1fc1619d19d7e115cdea9d55e3505b8eef7d776dbccc343"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 55888",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 55888",
     "args": [
       "-a",
       "sha3-256",
@@ -2244,7 +2244,7 @@
     "expected": "04cd3ed7eb0ebfdeb7d02f3afc216f14ab5298fe98bcffc74ed3091d675dee86"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 56984",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 56984",
     "args": [
       "-a",
       "sha3-256",
@@ -2256,7 +2256,7 @@
     "expected": "64667814f43419ba8587628c6422b0facc4b2181a1b82dc4673c052eb0667320"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 58080",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 58080",
     "args": [
       "-a",
       "sha3-256",
@@ -2268,7 +2268,7 @@
     "expected": "c51ec055972a32e7858f1d80301bd2c21efd5afd85545719f72df5ed015d9997"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 59176",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 59176",
     "args": [
       "-a",
       "sha3-256",
@@ -2280,7 +2280,7 @@
     "expected": "ad0dc37fee3aa1c28db25ddf03a56dbba8a2b92bfddb1e62a54536ad687006e5"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 60272",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 60272",
     "args": [
       "-a",
       "sha3-256",
@@ -2292,7 +2292,7 @@
     "expected": "a44aa7cd5f32a255962f836c15e065d4c0b42c457c7fcea5319f1f7783dc3787"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 61368",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 61368",
     "args": [
       "-a",
       "sha3-256",
@@ -2304,7 +2304,7 @@
     "expected": "00c495c3fb8fda89c667d2cebd93c8c3776d633540b6e1e7f31475e4f6b61938"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 62464",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 62464",
     "args": [
       "-a",
       "sha3-256",
@@ -2316,7 +2316,7 @@
     "expected": "4042fda4cd190e654376c3bf7e73a98c2beb0cde43fe6229c35f93dabe083162"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 63560",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 63560",
     "args": [
       "-a",
       "sha3-256",
@@ -2328,7 +2328,7 @@
     "expected": "a9bc5286fea48834b1a9ca1c91825a0983efd9f5e0601f9726156b537e935f23"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 64656",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 64656",
     "args": [
       "-a",
       "sha3-256",
@@ -2340,7 +2340,7 @@
     "expected": "f583bd7efc35c883cd8473920f07a798ffd489dcfbc27c462c3ef77b776f2ec3"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 65752",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 65752",
     "args": [
       "-a",
       "sha3-256",
@@ -2352,7 +2352,7 @@
     "expected": "662353cc2a4d1281b394b3a51954eac90586ef0e55d3aa583395e97b167beb5d"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 66848",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 66848",
     "args": [
       "-a",
       "sha3-256",
@@ -2364,7 +2364,7 @@
     "expected": "935c4be2217c43beb27a9c6a4c42f1b8b5e17ef6d9bb44f696cab3170986b026"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 67944",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 67944",
     "args": [
       "-a",
       "sha3-256",
@@ -2376,7 +2376,7 @@
     "expected": "00732e9275584e2bcf09fb67cbd67841750ec94a2fc74a850bab2053958c9639"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 69040",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 69040",
     "args": [
       "-a",
       "sha3-256",
@@ -2388,7 +2388,7 @@
     "expected": "4f9e1d625d8bde27baa224c74d54f4a3ca4d40ddf3d8f26da2253c261a958111"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 70136",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 70136",
     "args": [
       "-a",
       "sha3-256",
@@ -2400,7 +2400,7 @@
     "expected": "d078b9666e76f83807c8268053ba5d0e520a2207bbd12cecfc528853afde70ac"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 71232",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 71232",
     "args": [
       "-a",
       "sha3-256",
@@ -2412,7 +2412,7 @@
     "expected": "7a4a3e7d8c22a4cebe2f2b7b0aae9be6e2f0d9022dac92c5f82ed0a0f998d659"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 72328",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 72328",
     "args": [
       "-a",
       "sha3-256",
@@ -2424,7 +2424,7 @@
     "expected": "5a74425dc75dc97ff8db946583b5f3ed4b980bb122b6070bd8ae2fe9274b196b"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 73424",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 73424",
     "args": [
       "-a",
       "sha3-256",
@@ -2436,7 +2436,7 @@
     "expected": "c3d2857baa3896925880fa8fc1ebfb89e967408a3f2c5f8ec76048c62919af53"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 74520",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 74520",
     "args": [
       "-a",
       "sha3-256",
@@ -2448,7 +2448,7 @@
     "expected": "d0cfde393faa25a20d103185bf34171d2af7f9e14942d3f13e1744e4628ae822"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 75616",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 75616",
     "args": [
       "-a",
       "sha3-256",
@@ -2460,7 +2460,7 @@
     "expected": "55e845b01dccad4b0fc64c76727747c53ccd71f3cc57d59e3ddaebb34888af82"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 76712",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 76712",
     "args": [
       "-a",
       "sha3-256",
@@ -2472,7 +2472,7 @@
     "expected": "d757dc214367485cc997b5a663908d52710772fa64aa8cabe8b66526c241738a"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 77808",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 77808",
     "args": [
       "-a",
       "sha3-256",
@@ -2484,7 +2484,7 @@
     "expected": "16f6d454971689e498f4124c95a5d2843f5c70ac74e05b81de8d0e59ce2ae69a"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 78904",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 78904",
     "args": [
       "-a",
       "sha3-256",
@@ -2496,7 +2496,7 @@
     "expected": "72104c05b56b060ea141b60f847a2796c0acb0613d99e9cc1d93bb73ab59682d"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 80000",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 80000",
     "args": [
       "-a",
       "sha3-256",
@@ -2508,7 +2508,7 @@
     "expected": "77ab5121aad5f92ce694137b4eb255faf7b8bf73ddfa44457ba8ceeadd76611b"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 81096",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 81096",
     "args": [
       "-a",
       "sha3-256",
@@ -2520,7 +2520,7 @@
     "expected": "f0f1fdaabc6eb2370972e4eac9bd7baf93f7c624bd8272753c2459deb3b94620"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 82192",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 82192",
     "args": [
       "-a",
       "sha3-256",
@@ -2532,7 +2532,7 @@
     "expected": "95b775992f678c97b3b16fbe564802cc77fbb881658c40789a6fefeea90d08cb"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 83288",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 83288",
     "args": [
       "-a",
       "sha3-256",
@@ -2544,7 +2544,7 @@
     "expected": "75047887be4e0e48e1a3e33d51da42511e385f825609dbc51ec823c3c3effdab"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 84384",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 84384",
     "args": [
       "-a",
       "sha3-256",
@@ -2556,7 +2556,7 @@
     "expected": "3b37a688b4218aa1a7a508b8fd52713045afabd130b4efee90863aaca8bc0cce"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 85480",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 85480",
     "args": [
       "-a",
       "sha3-256",
@@ -2568,7 +2568,7 @@
     "expected": "a58a99535060ce659b0ce0c36cfcaadf38562ff95a7d0e4f61cba05c095dd808"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 86576",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 86576",
     "args": [
       "-a",
       "sha3-256",
@@ -2580,7 +2580,7 @@
     "expected": "06466ad3a6979c31bae14d0463f38a3b0f8e2cbfdaa00ae6b3f8ec444e60163c"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 87672",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 87672",
     "args": [
       "-a",
       "sha3-256",
@@ -2592,7 +2592,7 @@
     "expected": "0c91cc284724e821470065c00d8e2782649e861733b30f15e6c665c4efb2a6a0"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 88768",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 88768",
     "args": [
       "-a",
       "sha3-256",
@@ -2604,7 +2604,7 @@
     "expected": "0429e14c7a340fce819834f6a964f6ed19f5b54f8697f49c3f78a213c8b85b52"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 89864",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 89864",
     "args": [
       "-a",
       "sha3-256",
@@ -2616,7 +2616,7 @@
     "expected": "369fcc0248022dc42c567ae4b9658501e66e80ee87786a5cf9e4004ae3625af7"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 90960",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 90960",
     "args": [
       "-a",
       "sha3-256",
@@ -2628,7 +2628,7 @@
     "expected": "d0b32ae843378ce30423df5496d381b3091d7d4b935afd6a75664fc8e6baee19"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 92056",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 92056",
     "args": [
       "-a",
       "sha3-256",
@@ -2640,7 +2640,7 @@
     "expected": "60b5b847ca9cde423c04aa153a53da7f8ffdad63ccef9aafe035d06332cb195e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 93152",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 93152",
     "args": [
       "-a",
       "sha3-256",
@@ -2652,7 +2652,7 @@
     "expected": "8ba83a0095cf77f144e9b37e315a4a2c1255cd1564ce484fb6034ce9fe4c2755"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 94248",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 94248",
     "args": [
       "-a",
       "sha3-256",
@@ -2664,7 +2664,7 @@
     "expected": "d5a55a9943b4c49152a1f3aa7a88b620d04498ca6014285ce5972bb0d4d0c0c8"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 95344",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 95344",
     "args": [
       "-a",
       "sha3-256",
@@ -2676,7 +2676,7 @@
     "expected": "a665a46c304da954d97bdfe62ee29cf20ae55cdf21025f55d38ddc4623d8f112"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 96440",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 96440",
     "args": [
       "-a",
       "sha3-256",
@@ -2688,7 +2688,7 @@
     "expected": "08f636c1ddbdbfbf23239e6e75b5fd79aec3d8d3125346d73d97acdec3002ff6"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 97536",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 97536",
     "args": [
       "-a",
       "sha3-256",
@@ -2700,7 +2700,7 @@
     "expected": "c617c8f8b624852499835a276552d1f6639a4876895256d1f16a13a02773ffe3"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 98632",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 98632",
     "args": [
       "-a",
       "sha3-256",
@@ -2712,7 +2712,7 @@
     "expected": "f47265e21924b70e51dcaa201a37bdc920a6a695d7325043fbebede870251880"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 99728",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 99728",
     "args": [
       "-a",
       "sha3-256",
@@ -2724,7 +2724,7 @@
     "expected": "f19d73aeb79613c01706010285dc1f402c479ad9e703370bf252f4d2626c74c2"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 100824",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 100824",
     "args": [
       "-a",
       "sha3-256",
@@ -2736,7 +2736,7 @@
     "expected": "c84b5df3b377af82ce89dda9ed9ddb13d0bbb30945a44708ec5371ade48d611e"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 101920",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 101920",
     "args": [
       "-a",
       "sha3-256",
@@ -2748,7 +2748,7 @@
     "expected": "9430852f6036e3a80669866b306e657448235d1adb636dd34019f0c6d7303c9b"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 103016",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 103016",
     "args": [
       "-a",
       "sha3-256",
@@ -2760,7 +2760,7 @@
     "expected": "888b5cb235da523b66911fa27932a2ef641bdb00efd3af974fee29219df06d1d"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 104112",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 104112",
     "args": [
       "-a",
       "sha3-256",
@@ -2772,7 +2772,7 @@
     "expected": "b8cf6ec0391df63723cb81393824119d1ff629f679ac48f5e0c2e976af7a9d0d"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 105208",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 105208",
     "args": [
       "-a",
       "sha3-256",
@@ -2784,7 +2784,7 @@
     "expected": "6accd99e1024c571ff957e0f902f94128dbda7d6d09b30f788db10a8a177c4aa"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 106304",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 106304",
     "args": [
       "-a",
       "sha3-256",
@@ -2796,7 +2796,7 @@
     "expected": "1e69edd4e086c929fcc7791baf4f8c6dca929080330e863aa2b9b99a92f26211"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 107400",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 107400",
     "args": [
       "-a",
       "sha3-256",
@@ -2808,7 +2808,7 @@
     "expected": "346f0c249031b28179029c2cbf0642c3a4d36e58a2136190f780bff3195bf4e6"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 108496",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 108496",
     "args": [
       "-a",
       "sha3-256",
@@ -2820,7 +2820,7 @@
     "expected": "998d1adff784a28e43b25bec2e9d3cbfe588bbb1601ab7051000c1b943b4fc2a"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 109592",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 109592",
     "args": [
       "-a",
       "sha3-256",
@@ -2832,7 +2832,7 @@
     "expected": "387d2344681f8f771478b370b7c059a3ebee4c75ee2a7e0cfc26ef310c825202"
   },
   {
-    "desc": "MDLen = 256, MsgLen = 110688",
+    "desc": "Algo = sha3-256, MDLen = 256, MsgLen = 110688",
     "args": [
       "-a",
       "sha3-256",
