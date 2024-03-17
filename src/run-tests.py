@@ -45,6 +45,10 @@ TEST_ALGOS = [
     'echo-224', 'echo-256', 'echo-384', 'echo-512',
     'fugue-224', 'fugue-256', 'fugue-384', 'fugue-512',
     'luffa-224', 'luffa-256', 'luffa-384', 'luffa-512'
+    # CRC64/JONES by Professor David T. Jones at University College London, see also
+    # http://www0.cs.ucl.ac.uk/staff/d.jones/crcnote.pdf
+    # http://bioinf.cs.ucl.ac.uk/downloads/crc64/crc64.c
+    'crc64-jones'
 ]
 
 
