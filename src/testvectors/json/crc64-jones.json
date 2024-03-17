@@ -1,0 +1,32 @@
+[
+    {
+      "desc": "CRC64/JONES, testvector #1 from http://bioinf.cs.ucl.ac.uk/downloads/crc64/crc64.c",
+      "args": [
+        "-a",
+        "crc:64,AD93D23594C935A9,FFFFFFFFFFFFFFFF,true,true,0",
+        "-q",
+        "txt:MNIIQGNLVGTGLKIGIVVGRFNDFITSKLLSGAEDALLRHGVDTNDIDVAWVPGAFEIPFAAKKMAETKKYDAIITLGTVIRGATTSYDYVCNEAAKGIAQAANTTGVPVIFGIVTTENIEQAIERAGTKAGNKGVDCAVSAIEMANLNRSFE",
+        "-E",
+        "hex-uppercase",
+        "-F",
+        "#CHECKSUM"
+      ],
+      "expected": "C874767DA8254746"
+    },
+
+    {
+        "desc": "CRC64/JONES, testvector #2 from http://bioinf.cs.ucl.ac.uk/downloads/crc64/crc64.c",
+        "args": [
+          "-a",
+          "crc:64,AD93D23594C935A9,FFFFFFFFFFFFFFFF,true,true,0",
+          "-q",
+          "txt:MNIIQGNLVGTGLKIGIVVGRFNDFITSKLLSGAEDALLRHGVDTNDIDVAWVPGAFEIPFAAKKMAETKKYDAIITLGDVIRGATTHYDYVCNEAAKGIAQAANTTGVPVIFGIVTTENIEQAIERAGTKAGNKGVDCAVSAIEMANLNRSFE",
+          "-E",
+          "hex-uppercase",
+          "-F",
+          "#CHECKSUM"  
+        ],
+        "expected": "2DF1AA17420FCA3F"
+      }
+
+]
