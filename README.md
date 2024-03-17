@@ -1,5 +1,5 @@
 # jacksum-testcases
-Testcases to test Jacksum by calling its CLI.
+Testcases to test Jacksum by calling its CLI in order to avoid regressions.
 
 ## Prepare it
 
