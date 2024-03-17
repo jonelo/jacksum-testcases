@@ -104,6 +104,7 @@ LEN_PREFIX = "Len = "  # followed by the length of the message in bits
 MSG_PREFIX = "Msg = "  # followed by the message in hex lowercase encoding
 MD_PREFIX = "MD = "  # followed by the message digest in hex lowercase encoding
 
+
 def testvectors_text2json(record):
     algorithm = record['algo']
     directory = record['dir']
@@ -111,8 +112,11 @@ def testvectors_text2json(record):
 
     lines = []
     for filename in filenames:
-        file = open(directory + '/' + filename, 'r')
+        path = f"{directory}/{filename}"
+        print(f"Reading {path} ...")
+        file = open(path, 'r', encoding='utf-8')
         lines.extend(file.readlines())
+        file.close()
 
     md_length_in_bits = 0
     expected_next = L_PREFIX
@@ -184,9 +188,11 @@ def testvectors_text2json(record):
 
 def main():
     for textfile in testvectors_in_textfiles:
-        with open(f"./testvectors/json/{textfile['algo']}.json", 'w', encoding='utf-8') as f:
-            print(f"Writing {f.name}...")
-            f.write(testvectors_text2json(textfile))
+        with open(f"testvectors/json/{textfile['algo']}.json", 'w', encoding='utf-8') as f:
+            json_data = testvectors_text2json(textfile)
+            print(f"Writing {f.name} ...")
+            f.write(json_data)
+            f.close()
 
 
 main()
