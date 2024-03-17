@@ -99,12 +99,12 @@ def testcase(counter, testcase, statistics):
             print(f"stderr:   {actual_stderr}")
             print(f"Expected: {expected}")
             print(f"FAILED\n")
-            statistics['failed'].extend('#' + str(counter))
+            statistics['failed'].extend([counter])
 
     except subprocess.TimoutExpired:
         print(f"Timeout expired.")
         print(f"FAILED\n")
-        statistics['failed'].extend('#' + str(counter))
+        statistics['failed'].extend([counter])
 
 
 # perform all testcases
