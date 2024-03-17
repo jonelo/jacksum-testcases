@@ -173,7 +173,7 @@ def testvectors_text2json(record):
                     else:
                         print(f"{ERROR}: unexpected encoding in digest {md}")
                     obj = {
-                        'desc': f"MDLen = {md_length_in_bits}, MsgLen = {msg_length}",
+                        'desc': f"Algo = {algorithm}, MDLen = {md_length_in_bits}, MsgLen = {msg_length}",
                         'args': ["-a", f"{algorithm}",
                                  "-q", f"hex:{msg}",
                                  "-E", f"{hex_encoding}"
