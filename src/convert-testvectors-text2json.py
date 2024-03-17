@@ -104,6 +104,15 @@ LEN_PREFIX = "Len = "  # followed by the length of the message in bits
 MSG_PREFIX = "Msg = "  # followed by the message in hex lowercase encoding
 MD_PREFIX = "MD = "  # followed by the message digest in hex lowercase encoding
 
+HEXDIGITS_UPPERCASE = set('0123456789ABCDEF')
+HEXDIGITS_LOWERCASE = set('0123456789abcdef')
+
+def is_hex_uppercase(s):
+    # if s is long, then it is faster to check against a set
+    return all(c in HEXDIGITS_UPPERCASE for c in s)
+
+def is_hex_lowercase(s):
+    return all(c in HEXDIGITS_LOWERCASE for c in s)
 
 def testvectors_text2json(record):
     algorithm = record['algo']
@@ -157,13 +166,20 @@ def testvectors_text2json(record):
                     md = line[len(MD_PREFIX):]
                     md_length_in_bits = len(md) * 4
                     # print (f"Len = {msg_length}, Msg = {msg}, md = {md}")
+                    if is_hex_lowercase(md):
+                        hex_encoding = "hex"
+                    elif is_hex_uppercase(md):
+                        hex_encoding = "hex-uppercase"
+                    else:
+                        print(f"{ERROR}: unexpected encoding in digest {md}")
                     obj = {
                         'desc': f"MDLen = {md_length_in_bits}, MsgLen = {msg_length}",
                         'args': ["-a", f"{algorithm}",
                                  "-q", f"hex:{msg}",
-                                 "-E", "hex"
+                                 "-E", f"{hex_encoding}"
                                  ],
-                        'expected': md.lower()
+                        # 'msg': f"{msg}",
+                        'expected': md
                     }
                     testcases.append(obj)
                 else:
