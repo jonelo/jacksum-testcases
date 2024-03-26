@@ -1,5 +1,5 @@
 # jacksum-testcases
-Testcases to test Jacksum by calling its CLI in order to avoid regressions.
+Test cases for testing Jacksum by calling its CLI to check new implementations and avoid regressions.
 
 ## Prepare it
 
@@ -23,5 +23,8 @@ $
 
 ```
 $ pyhton ./run-tests.py
+...
+Result: {'passed': 22679, 'failed': []}
+ALL PASSED :)
 ...
 ```
