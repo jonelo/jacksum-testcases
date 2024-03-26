@@ -30,21 +30,34 @@ from testvectors.lib import hmac_testcases
 TESTVECTORS_JSON = 'testvectors/json'
 
 # user init
-APP = ["java", "-jar", "jacksum-3.7.0.jar"]
+# APP = ["java", "-jar", "jacksum-3.7.0.jar"]
+APP = ["java", "-jar", "jacksum-3.8.0-SNAPSHOT.jar"]
 TEST_ALGOS = [
     # SHA3 family
-    'sha3-224', 'sha3-256', 'sha3-384', 'sha3-512',
+    'sha3-224','sha3-256', 'sha3-384', 'sha3-512',
+
     # All 3rd round candidates of the NIST SHA-3 competition
-    'blake-224', 'blake-256', 'blake-384', 'blake-512',
-    'groestl-224', 'groestl-256', 'groestl-384', 'groestl-512',
-    'jh-224', 'jh-256', 'jh-384', 'jh-512',
-    'keccak-224', 'keccak-256', 'keccak-384', 'keccak-512',
-    # the testvectors submitted to the NIST competition use an internal state of 512 bits
+    'blake-224',     'blake-256',      'blake-384',     'blake-512',
+    'groestl-224',   'groestl-256',   'groestl-384',   'groestl-512',
+    'jh-224',        'jh-256',        'jh-384',        'jh-512',
+    'keccak-224',    'keccak-256',    'keccak-384',    'keccak-512',
     'skein-512-224', 'skein-512-256', 'skein-512-384', 'skein-512-512',
-    # Some 2nd round candidates of the NIST SHA-3 competition
-    'echo-224', 'echo-256', 'echo-384', 'echo-512',
-    'fugue-224', 'fugue-256', 'fugue-384', 'fugue-512',
-    'luffa-224', 'luffa-256', 'luffa-384', 'luffa-512'
+
+    # 2nd round candidates of the NIST SHA-3 competition
+    'echo-224',      'echo-256',      'echo-384',      'echo-512',
+    'fugue-224',     'fugue-256',     'fugue-384',     'fugue-512',
+    'luffa-224',     'luffa-256',     'luffa-384',     'luffa-512',
+    'bluemidnightwish-224', 'bluemidnightwish-256', 'bluemidnightwish-384', 'bluemidnightwish-512',
+    'simd-224',      'simd-256',      'simd-384',      'simd-512',
+    'cubehash-224',  'cubehash-256',  'cubehash-384',  'cubehash-512',
+    'hamsi-224',     'hamsi-256',     'hamsi-384',     'hamsi-512',
+    'shabal-224',    'shabal-256',    'shabal-384',    'shabal-512',
+   #'shavite-224',   'shavite-256',   'shavite-384',   'shavite-512',
+
+    # NIST lightweight cryptography competition 2023: finalists ###
+    'ascon-hash', 'ascon-hasha', 'ascon-xof', 'ascon-xofa',
+    'romulus-h',
+
     # CRC64/JONES by Professor David T. Jones at University College London, see also
     # http://www0.cs.ucl.ac.uk/staff/d.jones/crcnote.pdf
     # http://bioinf.cs.ucl.ac.uk/downloads/crc64/crc64.c
@@ -105,7 +118,7 @@ def testcase(counter, testcase, statistics):
             print(f"FAILED\n")
             statistics['failed'].extend([counter])
 
-    except subprocess.TimoutExpired:
+    except subprocess.TimeoutExpired:
         print(f"Timeout expired.")
         print(f"FAILED\n")
         statistics['failed'].extend([counter])
