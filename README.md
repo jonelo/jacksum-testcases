@@ -26,5 +26,5 @@ $ pyhton ./run-tests.py
 ...
 Result: {'passed': 22679, 'failed': []}
 ALL PASSED :)
-```
 $
+```
