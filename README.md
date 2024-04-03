@@ -3,7 +3,7 @@ Test cases for testing Jacksum by calling its CLI to check new implementations a
 
 ## Prepare it
 
-`convert-testvectors-text2json.py` converts all text based test vectors in `testvectors/raw/` to json in testvectors/json`.
+`convert-testvectors-text2json.py` converts all text based test vectors in `testvectors/raw/` to json in `testvectors/json`.
 ```
 $ python ./convert-testvectors-text2json.py
 Reading testvectors/raw/algorithms/sha3/SHA3_224ShortMsg.rsp ...
