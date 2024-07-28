@@ -1,0 +1,1570 @@
+[
+    {
+        "desc": "width=3  poly=0x3  init=0x0  refin=false  refout=false  xorout=0x7  check=0x4  residue=0x2  name=\"CRC-3/GSM\"",
+        "args": [
+            "-a",
+            "crc:3,3,0,false,false,7",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "04"
+    },
+    {
+        "desc": "width=3  poly=0x3  init=0x7  refin=true  refout=true  xorout=0x0  check=0x6  residue=0x0  name=\"CRC-3/ROHC\"",
+        "args": [
+            "-a",
+            "crc:3,3,7,true,true,0",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "06"
+    },
+    {
+        "desc": "width=4  poly=0x3  init=0x0  refin=true  refout=true  xorout=0x0  check=0x7  residue=0x0  name=\"CRC-4/G-704\"",
+        "args": [
+            "-a",
+            "crc:4,3,0,true,true,0",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "07"
+    },
+    {
+        "desc": "width=4  poly=0x3  init=0xf  refin=false  refout=false  xorout=0xf  check=0xb  residue=0x2  name=\"CRC-4/INTERLAKEN\"",
+        "args": [
+            "-a",
+            "crc:4,3,f,false,false,f",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "0b"
+    },
+    {
+        "desc": "width=5  poly=0x09  init=0x09  refin=false  refout=false  xorout=0x00  check=0x00  residue=0x00  name=\"CRC-5/EPC-C1G2\"",
+        "args": [
+            "-a",
+            "crc:5,09,09,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "00"
+    },
+    {
+        "desc": "width=5  poly=0x15  init=0x00  refin=true  refout=true  xorout=0x00  check=0x07  residue=0x00  name=\"CRC-5/G-704\"",
+        "args": [
+            "-a",
+            "crc:5,15,00,true,true,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "07"
+    },
+    {
+        "desc": "width=5  poly=0x05  init=0x1f  refin=true  refout=true  xorout=0x1f  check=0x19  residue=0x06  name=\"CRC-5/USB\"",
+        "args": [
+            "-a",
+            "crc:5,05,1f,true,true,1f",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "19"
+    },
+    {
+        "desc": "width=6  poly=0x27  init=0x3f  refin=false  refout=false  xorout=0x00  check=0x0d  residue=0x00  name=\"CRC-6/CDMA2000-A\"",
+        "args": [
+            "-a",
+            "crc:6,27,3f,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "0d"
+    },
+    {
+        "desc": "width=6  poly=0x07  init=0x3f  refin=false  refout=false  xorout=0x00  check=0x3b  residue=0x00  name=\"CRC-6/CDMA2000-B\"",
+        "args": [
+            "-a",
+            "crc:6,07,3f,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "3b"
+    },
+    {
+        "desc": "width=6  poly=0x19  init=0x00  refin=true  refout=true  xorout=0x00  check=0x26  residue=0x00  name=\"CRC-6/DARC\"",
+        "args": [
+            "-a",
+            "crc:6,19,00,true,true,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "26"
+    },
+    {
+        "desc": "width=6  poly=0x03  init=0x00  refin=true  refout=true  xorout=0x00  check=0x06  residue=0x00  name=\"CRC-6/G-704\"",
+        "args": [
+            "-a",
+            "crc:6,03,00,true,true,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "06"
+    },
+    {
+        "desc": "width=6  poly=0x2f  init=0x00  refin=false  refout=false  xorout=0x3f  check=0x13  residue=0x3a  name=\"CRC-6/GSM\"",
+        "args": [
+            "-a",
+            "crc:6,2f,00,false,false,3f",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "13"
+    },
+    {
+        "desc": "width=7  poly=0x09  init=0x00  refin=false  refout=false  xorout=0x00  check=0x75  residue=0x00  name=\"CRC-7/MMC\"",
+        "args": [
+            "-a",
+            "crc:7,09,00,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "75"
+    },
+    {
+        "desc": "width=7  poly=0x4f  init=0x7f  refin=true  refout=true  xorout=0x00  check=0x53  residue=0x00  name=\"CRC-7/ROHC\"",
+        "args": [
+            "-a",
+            "crc:7,4f,7f,true,true,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "53"
+    },
+    {
+        "desc": "width=7  poly=0x45  init=0x00  refin=false  refout=false  xorout=0x00  check=0x61  residue=0x00  name=\"CRC-7/UMTS\"",
+        "args": [
+            "-a",
+            "crc:7,45,00,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "61"
+    },
+    {
+        "desc": "width=8  poly=0x2f  init=0xff  refin=false  refout=false  xorout=0xff  check=0xdf  residue=0x42  name=\"CRC-8/AUTOSAR\"",
+        "args": [
+            "-a",
+            "crc:8,2f,ff,false,false,ff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "df"
+    },
+    {
+        "desc": "width=8  poly=0xa7  init=0x00  refin=true  refout=true  xorout=0x00  check=0x26  residue=0x00  name=\"CRC-8/BLUETOOTH\"",
+        "args": [
+            "-a",
+            "crc:8,a7,00,true,true,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "26"
+    },
+    {
+        "desc": "width=8  poly=0x9b  init=0xff  refin=false  refout=false  xorout=0x00  check=0xda  residue=0x00  name=\"CRC-8/CDMA2000\"",
+        "args": [
+            "-a",
+            "crc:8,9b,ff,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "da"
+    },
+    {
+        "desc": "width=8  poly=0x39  init=0x00  refin=true  refout=true  xorout=0x00  check=0x15  residue=0x00  name=\"CRC-8/DARC\"",
+        "args": [
+            "-a",
+            "crc:8,39,00,true,true,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "15"
+    },
+    {
+        "desc": "width=8  poly=0xd5  init=0x00  refin=false  refout=false  xorout=0x00  check=0xbc  residue=0x00  name=\"CRC-8/DVB-S2\"",
+        "args": [
+            "-a",
+            "crc:8,d5,00,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "bc"
+    },
+    {
+        "desc": "width=8  poly=0x1d  init=0x00  refin=false  refout=false  xorout=0x00  check=0x37  residue=0x00  name=\"CRC-8/GSM-A\"",
+        "args": [
+            "-a",
+            "crc:8,1d,00,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "37"
+    },
+    {
+        "desc": "width=8  poly=0x49  init=0x00  refin=false  refout=false  xorout=0xff  check=0x94  residue=0x53  name=\"CRC-8/GSM-B\"",
+        "args": [
+            "-a",
+            "crc:8,49,00,false,false,ff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "94"
+    },
+    {
+        "desc": "width=8  poly=0x1d  init=0xff  refin=false  refout=false  xorout=0x00  check=0xb4  residue=0x00  name=\"CRC-8/HITAG\"",
+        "args": [
+            "-a",
+            "crc:8,1d,ff,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "b4"
+    },
+    {
+        "desc": "width=8  poly=0x07  init=0x00  refin=false  refout=false  xorout=0x55  check=0xa1  residue=0xac  name=\"CRC-8/I-432-1\"",
+        "args": [
+            "-a",
+            "crc:8,07,00,false,false,55",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "a1"
+    },
+    {
+        "desc": "width=8  poly=0x1d  init=0xfd  refin=false  refout=false  xorout=0x00  check=0x7e  residue=0x00  name=\"CRC-8/I-CODE\"",
+        "args": [
+            "-a",
+            "crc:8,1d,fd,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "7e"
+    },
+    {
+        "desc": "width=8  poly=0x9b  init=0x00  refin=false  refout=false  xorout=0x00  check=0xea  residue=0x00  name=\"CRC-8/LTE\"",
+        "args": [
+            "-a",
+            "crc:8,9b,00,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "ea"
+    },
+    {
+        "desc": "width=8  poly=0x31  init=0x00  refin=true  refout=true  xorout=0x00  check=0xa1  residue=0x00  name=\"CRC-8/MAXIM-DOW\"",
+        "args": [
+            "-a",
+            "crc:8,31,00,true,true,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "a1"
+    },
+    {
+        "desc": "width=8  poly=0x1d  init=0xc7  refin=false  refout=false  xorout=0x00  check=0x99  residue=0x00  name=\"CRC-8/MIFARE-MAD\"",
+        "args": [
+            "-a",
+            "crc:8,1d,c7,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "99"
+    },
+    {
+        "desc": "width=8  poly=0x31  init=0xff  refin=false  refout=false  xorout=0x00  check=0xf7  residue=0x00  name=\"CRC-8/NRSC-5\"",
+        "args": [
+            "-a",
+            "crc:8,31,ff,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "f7"
+    },
+    {
+        "desc": "width=8  poly=0x2f  init=0x00  refin=false  refout=false  xorout=0x00  check=0x3e  residue=0x00  name=\"CRC-8/OPENSAFETY\"",
+        "args": [
+            "-a",
+            "crc:8,2f,00,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "3e"
+    },
+    {
+        "desc": "width=8  poly=0x07  init=0xff  refin=true  refout=true  xorout=0x00  check=0xd0  residue=0x00  name=\"CRC-8/ROHC\"",
+        "args": [
+            "-a",
+            "crc:8,07,ff,true,true,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "d0"
+    },
+    {
+        "desc": "width=8  poly=0x1d  init=0xff  refin=false  refout=false  xorout=0xff  check=0x4b  residue=0xc4  name=\"CRC-8/SAE-J1850\"",
+        "args": [
+            "-a",
+            "crc:8,1d,ff,false,false,ff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "4b"
+    },
+    {
+        "desc": "width=8  poly=0x07  init=0x00  refin=false  refout=false  xorout=0x00  check=0xf4  residue=0x00  name=\"CRC-8/SMBUS\"",
+        "args": [
+            "-a",
+            "crc:8,07,00,false,false,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "f4"
+    },
+    {
+        "desc": "width=8  poly=0x1d  init=0xff  refin=true  refout=true  xorout=0x00  check=0x97  residue=0x00  name=\"CRC-8/TECH-3250\"",
+        "args": [
+            "-a",
+            "crc:8,1d,ff,true,true,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "97"
+    },
+    {
+        "desc": "width=8  poly=0x9b  init=0x00  refin=true  refout=true  xorout=0x00  check=0x25  residue=0x00  name=\"CRC-8/WCDMA\"",
+        "args": [
+            "-a",
+            "crc:8,9b,00,true,true,00",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "25"
+    },
+    {
+        "desc": "width=10  poly=0x233  init=0x000  refin=false  refout=false  xorout=0x000  check=0x199  residue=0x000  name=\"CRC-10/ATM\"",
+        "args": [
+            "-a",
+            "crc:10,233,000,false,false,000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "0199"
+    },
+    {
+        "desc": "width=10  poly=0x3d9  init=0x3ff  refin=false  refout=false  xorout=0x000  check=0x233  residue=0x000  name=\"CRC-10/CDMA2000\"",
+        "args": [
+            "-a",
+            "crc:10,3d9,3ff,false,false,000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "0233"
+    },
+    {
+        "desc": "width=10  poly=0x175  init=0x000  refin=false  refout=false  xorout=0x3ff  check=0x12a  residue=0x0c6  name=\"CRC-10/GSM\"",
+        "args": [
+            "-a",
+            "crc:10,175,000,false,false,3ff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "012a"
+    },
+    {
+        "desc": "width=11  poly=0x385  init=0x01a  refin=false  refout=false  xorout=0x000  check=0x5a3  residue=0x000  name=\"CRC-11/FLEXRAY\"",
+        "args": [
+            "-a",
+            "crc:11,385,01a,false,false,000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "05a3"
+    },
+    {
+        "desc": "width=11  poly=0x307  init=0x000  refin=false  refout=false  xorout=0x000  check=0x061  residue=0x000  name=\"CRC-11/UMTS\"",
+        "args": [
+            "-a",
+            "crc:11,307,000,false,false,000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "0061"
+    },
+    {
+        "desc": "width=12  poly=0xf13  init=0xfff  refin=false  refout=false  xorout=0x000  check=0xd4d  residue=0x000  name=\"CRC-12/CDMA2000\"",
+        "args": [
+            "-a",
+            "crc:12,f13,fff,false,false,000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "0d4d"
+    },
+    {
+        "desc": "width=12  poly=0x80f  init=0x000  refin=false  refout=false  xorout=0x000  check=0xf5b  residue=0x000  name=\"CRC-12/DECT\"",
+        "args": [
+            "-a",
+            "crc:12,80f,000,false,false,000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "0f5b"
+    },
+    {
+        "desc": "width=12  poly=0xd31  init=0x000  refin=false  refout=false  xorout=0xfff  check=0xb34  residue=0x178  name=\"CRC-12/GSM\"",
+        "args": [
+            "-a",
+            "crc:12,d31,000,false,false,fff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "0b34"
+    },
+    {
+        "desc": "width=12  poly=0x80f  init=0x000  refin=false  refout=true  xorout=0x000  check=0xdaf  residue=0x000  name=\"CRC-12/UMTS\"",
+        "args": [
+            "-a",
+            "crc:12,80f,000,false,true,000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "0daf"
+    },
+    {
+        "desc": "width=13  poly=0x1cf5  init=0x0000  refin=false  refout=false  xorout=0x0000  check=0x04fa  residue=0x0000  name=\"CRC-13/BBC\"",
+        "args": [
+            "-a",
+            "crc:13,1cf5,0000,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "04fa"
+    },
+    {
+        "desc": "width=14  poly=0x0805  init=0x0000  refin=true  refout=true  xorout=0x0000  check=0x082d  residue=0x0000  name=\"CRC-14/DARC\"",
+        "args": [
+            "-a",
+            "crc:14,0805,0000,true,true,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "082d"
+    },
+    {
+        "desc": "width=14  poly=0x202d  init=0x0000  refin=false  refout=false  xorout=0x3fff  check=0x30ae  residue=0x031e  name=\"CRC-14/GSM\"",
+        "args": [
+            "-a",
+            "crc:14,202d,0000,false,false,3fff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "30ae"
+    },
+    {
+        "desc": "width=15  poly=0x4599  init=0x0000  refin=false  refout=false  xorout=0x0000  check=0x059e  residue=0x0000  name=\"CRC-15/CAN\"",
+        "args": [
+            "-a",
+            "crc:15,4599,0000,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "059e"
+    },
+    {
+        "desc": "width=15  poly=0x6815  init=0x0000  refin=false  refout=false  xorout=0x0001  check=0x2566  residue=0x6815  name=\"CRC-15/MPT1327\"",
+        "args": [
+            "-a",
+            "crc:15,6815,0000,false,false,0001",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "2566"
+    },
+    {
+        "desc": "width=16  poly=0x8005  init=0x0000  refin=true  refout=true  xorout=0x0000  check=0xbb3d  residue=0x0000  name=\"CRC-16/ARC\"",
+        "args": [
+            "-a",
+            "crc:16,8005,0000,true,true,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "bb3d"
+    },
+    {
+        "desc": "width=16  poly=0xc867  init=0xffff  refin=false  refout=false  xorout=0x0000  check=0x4c06  residue=0x0000  name=\"CRC-16/CDMA2000\"",
+        "args": [
+            "-a",
+            "crc:16,c867,ffff,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "4c06"
+    },
+    {
+        "desc": "width=16  poly=0x8005  init=0xffff  refin=false  refout=false  xorout=0x0000  check=0xaee7  residue=0x0000  name=\"CRC-16/CMS\"",
+        "args": [
+            "-a",
+            "crc:16,8005,ffff,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "aee7"
+    },
+    {
+        "desc": "width=16  poly=0x8005  init=0x800d  refin=false  refout=false  xorout=0x0000  check=0x9ecf  residue=0x0000  name=\"CRC-16/DDS-110\"",
+        "args": [
+            "-a",
+            "crc:16,8005,800d,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "9ecf"
+    },
+    {
+        "desc": "width=16  poly=0x0589  init=0x0000  refin=false  refout=false  xorout=0x0001  check=0x007e  residue=0x0589  name=\"CRC-16/DECT-R\"",
+        "args": [
+            "-a",
+            "crc:16,0589,0000,false,false,0001",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "007e"
+    },
+    {
+        "desc": "width=16  poly=0x0589  init=0x0000  refin=false  refout=false  xorout=0x0000  check=0x007f  residue=0x0000  name=\"CRC-16/DECT-X\"",
+        "args": [
+            "-a",
+            "crc:16,0589,0000,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "007f"
+    },
+    {
+        "desc": "width=16  poly=0x3d65  init=0x0000  refin=true  refout=true  xorout=0xffff  check=0xea82  residue=0x66c5  name=\"CRC-16/DNP\"",
+        "args": [
+            "-a",
+            "crc:16,3d65,0000,true,true,ffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "ea82"
+    },
+    {
+        "desc": "width=16  poly=0x3d65  init=0x0000  refin=false  refout=false  xorout=0xffff  check=0xc2b7  residue=0xa366  name=\"CRC-16/EN-13757\"",
+        "args": [
+            "-a",
+            "crc:16,3d65,0000,false,false,ffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "c2b7"
+    },
+    {
+        "desc": "width=16  poly=0x1021  init=0xffff  refin=false  refout=false  xorout=0xffff  check=0xd64e  residue=0x1d0f  name=\"CRC-16/GENIBUS\"",
+        "args": [
+            "-a",
+            "crc:16,1021,ffff,false,false,ffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "d64e"
+    },
+    {
+        "desc": "width=16  poly=0x1021  init=0x0000  refin=false  refout=false  xorout=0xffff  check=0xce3c  residue=0x1d0f  name=\"CRC-16/GSM\"",
+        "args": [
+            "-a",
+            "crc:16,1021,0000,false,false,ffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "ce3c"
+    },
+    {
+        "desc": "width=16  poly=0x1021  init=0xffff  refin=false  refout=false  xorout=0x0000  check=0x29b1  residue=0x0000  name=\"CRC-16/IBM-3740\"",
+        "args": [
+            "-a",
+            "crc:16,1021,ffff,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "29b1"
+    },
+    {
+        "desc": "width=16  poly=0x1021  init=0xffff  refin=true  refout=true  xorout=0xffff  check=0x906e  residue=0xf0b8  name=\"CRC-16/IBM-SDLC\"",
+        "args": [
+            "-a",
+            "crc:16,1021,ffff,true,true,ffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "906e"
+    },
+    {
+        "desc": "width=16  poly=0x1021  init=0xc6c6  refin=true  refout=true  xorout=0x0000  check=0xbf05  residue=0x0000  name=\"CRC-16/ISO-IEC-14443-3-A\"",
+        "args": [
+            "-a",
+            "crc:16,1021,c6c6,true,true,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "bf05"
+    },
+    {
+        "desc": "width=16  poly=0x1021  init=0x0000  refin=true  refout=true  xorout=0x0000  check=0x2189  residue=0x0000  name=\"CRC-16/KERMIT\"",
+        "args": [
+            "-a",
+            "crc:16,1021,0000,true,true,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "2189"
+    },
+    {
+        "desc": "width=16  poly=0x6f63  init=0x0000  refin=false  refout=false  xorout=0x0000  check=0xbdf4  residue=0x0000  name=\"CRC-16/LJ1200\"",
+        "args": [
+            "-a",
+            "crc:16,6f63,0000,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "bdf4"
+    },
+    {
+        "desc": "width=16  poly=0x5935  init=0xffff  refin=false  refout=false  xorout=0x0000  check=0x772b  residue=0x0000  name=\"CRC-16/M17\"",
+        "args": [
+            "-a",
+            "crc:16,5935,ffff,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "772b"
+    },
+    {
+        "desc": "width=16  poly=0x8005  init=0x0000  refin=true  refout=true  xorout=0xffff  check=0x44c2  residue=0xb001  name=\"CRC-16/MAXIM-DOW\"",
+        "args": [
+            "-a",
+            "crc:16,8005,0000,true,true,ffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "44c2"
+    },
+    {
+        "desc": "width=16  poly=0x1021  init=0xffff  refin=true  refout=true  xorout=0x0000  check=0x6f91  residue=0x0000  name=\"CRC-16/MCRF4XX\"",
+        "args": [
+            "-a",
+            "crc:16,1021,ffff,true,true,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "6f91"
+    },
+    {
+        "desc": "width=16  poly=0x8005  init=0xffff  refin=true  refout=true  xorout=0x0000  check=0x4b37  residue=0x0000  name=\"CRC-16/MODBUS\"",
+        "args": [
+            "-a",
+            "crc:16,8005,ffff,true,true,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "4b37"
+    },
+    {
+        "desc": "width=16  poly=0x080b  init=0xffff  refin=true  refout=true  xorout=0x0000  check=0xa066  residue=0x0000  name=\"CRC-16/NRSC-5\"",
+        "args": [
+            "-a",
+            "crc:16,080b,ffff,true,true,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "a066"
+    },
+    {
+        "desc": "width=16  poly=0x5935  init=0x0000  refin=false  refout=false  xorout=0x0000  check=0x5d38  residue=0x0000  name=\"CRC-16/OPENSAFETY-A\"",
+        "args": [
+            "-a",
+            "crc:16,5935,0000,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "5d38"
+    },
+    {
+        "desc": "width=16  poly=0x755b  init=0x0000  refin=false  refout=false  xorout=0x0000  check=0x20fe  residue=0x0000  name=\"CRC-16/OPENSAFETY-B\"",
+        "args": [
+            "-a",
+            "crc:16,755b,0000,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "20fe"
+    },
+    {
+        "desc": "width=16  poly=0x1dcf  init=0xffff  refin=false  refout=false  xorout=0xffff  check=0xa819  residue=0xe394  name=\"CRC-16/PROFIBUS\"",
+        "args": [
+            "-a",
+            "crc:16,1dcf,ffff,false,false,ffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "a819"
+    },
+    {
+        "desc": "width=16  poly=0x1021  init=0xb2aa  refin=true  refout=true  xorout=0x0000  check=0x63d0  residue=0x0000  name=\"CRC-16/RIELLO\"",
+        "args": [
+            "-a",
+            "crc:16,1021,b2aa,true,true,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "63d0"
+    },
+    {
+        "desc": "width=16  poly=0x1021  init=0x1d0f  refin=false  refout=false  xorout=0x0000  check=0xe5cc  residue=0x0000  name=\"CRC-16/SPI-FUJITSU\"",
+        "args": [
+            "-a",
+            "crc:16,1021,1d0f,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "e5cc"
+    },
+    {
+        "desc": "width=16  poly=0x8bb7  init=0x0000  refin=false  refout=false  xorout=0x0000  check=0xd0db  residue=0x0000  name=\"CRC-16/T10-DIF\"",
+        "args": [
+            "-a",
+            "crc:16,8bb7,0000,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "d0db"
+    },
+    {
+        "desc": "width=16  poly=0xa097  init=0x0000  refin=false  refout=false  xorout=0x0000  check=0x0fb3  residue=0x0000  name=\"CRC-16/TELEDISK\"",
+        "args": [
+            "-a",
+            "crc:16,a097,0000,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "0fb3"
+    },
+    {
+        "desc": "width=16  poly=0x1021  init=0x89ec  refin=true  refout=true  xorout=0x0000  check=0x26b1  residue=0x0000  name=\"CRC-16/TMS37157\"",
+        "args": [
+            "-a",
+            "crc:16,1021,89ec,true,true,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "26b1"
+    },
+    {
+        "desc": "width=16  poly=0x8005  init=0x0000  refin=false  refout=false  xorout=0x0000  check=0xfee8  residue=0x0000  name=\"CRC-16/UMTS\"",
+        "args": [
+            "-a",
+            "crc:16,8005,0000,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "fee8"
+    },
+    {
+        "desc": "width=16  poly=0x8005  init=0xffff  refin=true  refout=true  xorout=0xffff  check=0xb4c8  residue=0xb001  name=\"CRC-16/USB\"",
+        "args": [
+            "-a",
+            "crc:16,8005,ffff,true,true,ffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "b4c8"
+    },
+    {
+        "desc": "width=16  poly=0x1021  init=0x0000  refin=false  refout=false  xorout=0x0000  check=0x31c3  residue=0x0000  name=\"CRC-16/XMODEM\"",
+        "args": [
+            "-a",
+            "crc:16,1021,0000,false,false,0000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "31c3"
+    },
+    {
+        "desc": "width=17  poly=0x1685b  init=0x00000  refin=false  refout=false  xorout=0x00000  check=0x04f03  residue=0x00000  name=\"CRC-17/CAN-FD\"",
+        "args": [
+            "-a",
+            "crc:17,1685b,00000,false,false,00000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "004f03"
+    },
+    {
+        "desc": "width=21  poly=0x102899  init=0x000000  refin=false  refout=false  xorout=0x000000  check=0x0ed841  residue=0x000000  name=\"CRC-21/CAN-FD\"",
+        "args": [
+            "-a",
+            "crc:21,102899,000000,false,false,000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "0ed841"
+    },
+    {
+        "desc": "width=24  poly=0x00065b  init=0x555555  refin=true  refout=true  xorout=0x000000  check=0xc25a56  residue=0x000000  name=\"CRC-24/BLE\"",
+        "args": [
+            "-a",
+            "crc:24,00065b,555555,true,true,000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "c25a56"
+    },
+    {
+        "desc": "width=24  poly=0x5d6dcb  init=0xfedcba  refin=false  refout=false  xorout=0x000000  check=0x7979bd  residue=0x000000  name=\"CRC-24/FLEXRAY-A\"",
+        "args": [
+            "-a",
+            "crc:24,5d6dcb,fedcba,false,false,000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "7979bd"
+    },
+    {
+        "desc": "width=24  poly=0x5d6dcb  init=0xabcdef  refin=false  refout=false  xorout=0x000000  check=0x1f23b8  residue=0x000000  name=\"CRC-24/FLEXRAY-B\"",
+        "args": [
+            "-a",
+            "crc:24,5d6dcb,abcdef,false,false,000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "1f23b8"
+    },
+    {
+        "desc": "width=24  poly=0x328b63  init=0xffffff  refin=false  refout=false  xorout=0xffffff  check=0xb4f3e6  residue=0x144e63  name=\"CRC-24/INTERLAKEN\"",
+        "args": [
+            "-a",
+            "crc:24,328b63,ffffff,false,false,ffffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "b4f3e6"
+    },
+    {
+        "desc": "width=24  poly=0x864cfb  init=0x000000  refin=false  refout=false  xorout=0x000000  check=0xcde703  residue=0x000000  name=\"CRC-24/LTE-A\"",
+        "args": [
+            "-a",
+            "crc:24,864cfb,000000,false,false,000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "cde703"
+    },
+    {
+        "desc": "width=24  poly=0x800063  init=0x000000  refin=false  refout=false  xorout=0x000000  check=0x23ef52  residue=0x000000  name=\"CRC-24/LTE-B\"",
+        "args": [
+            "-a",
+            "crc:24,800063,000000,false,false,000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "23ef52"
+    },
+    {
+        "desc": "width=24  poly=0x864cfb  init=0xb704ce  refin=false  refout=false  xorout=0x000000  check=0x21cf02  residue=0x000000  name=\"CRC-24/OPENPGP\"",
+        "args": [
+            "-a",
+            "crc:24,864cfb,b704ce,false,false,000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "21cf02"
+    },
+    {
+        "desc": "width=24  poly=0x800063  init=0xffffff  refin=false  refout=false  xorout=0xffffff  check=0x200fa5  residue=0x800fe3  name=\"CRC-24/OS-9\"",
+        "args": [
+            "-a",
+            "crc:24,800063,ffffff,false,false,ffffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "200fa5"
+    },
+    {
+        "desc": "width=30  poly=0x2030b9c7  init=0x3fffffff  refin=false  refout=false  xorout=0x3fffffff  check=0x04c34abf  residue=0x34efa55a  name=\"CRC-30/CDMA\"",
+        "args": [
+            "-a",
+            "crc:30,2030b9c7,3fffffff,false,false,3fffffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "04c34abf"
+    },
+    {
+        "desc": "width=31  poly=0x04c11db7  init=0x7fffffff  refin=false  refout=false  xorout=0x7fffffff  check=0x0ce9e46c  residue=0x4eaf26f1  name=\"CRC-31/PHILIPS\"",
+        "args": [
+            "-a",
+            "crc:31,04c11db7,7fffffff,false,false,7fffffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "0ce9e46c"
+    },
+    {
+        "desc": "width=32  poly=0x814141ab  init=0x00000000  refin=false  refout=false  xorout=0x00000000  check=0x3010bf7f  residue=0x00000000  name=\"CRC-32/AIXM\"",
+        "args": [
+            "-a",
+            "crc:32,814141ab,00000000,false,false,00000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "3010bf7f"
+    },
+    {
+        "desc": "width=32  poly=0xf4acfb13  init=0xffffffff  refin=true  refout=true  xorout=0xffffffff  check=0x1697d06a  residue=0x904cddbf  name=\"CRC-32/AUTOSAR\"",
+        "args": [
+            "-a",
+            "crc:32,f4acfb13,ffffffff,true,true,ffffffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "1697d06a"
+    },
+    {
+        "desc": "width=32  poly=0xa833982b  init=0xffffffff  refin=true  refout=true  xorout=0xffffffff  check=0x87315576  residue=0x45270551  name=\"CRC-32/BASE91-D\"",
+        "args": [
+            "-a",
+            "crc:32,a833982b,ffffffff,true,true,ffffffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "87315576"
+    },
+    {
+        "desc": "width=32  poly=0x04c11db7  init=0xffffffff  refin=false  refout=false  xorout=0xffffffff  check=0xfc891918  residue=0xc704dd7b  name=\"CRC-32/BZIP2\"",
+        "args": [
+            "-a",
+            "crc:32,04c11db7,ffffffff,false,false,ffffffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "fc891918"
+    },
+    {
+        "desc": "width=32  poly=0x8001801b  init=0x00000000  refin=true  refout=true  xorout=0x00000000  check=0x6ec2edc4  residue=0x00000000  name=\"CRC-32/CD-ROM-EDC\"",
+        "args": [
+            "-a",
+            "crc:32,8001801b,00000000,true,true,00000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "6ec2edc4"
+    },
+    {
+        "desc": "width=32  poly=0x04c11db7  init=0x00000000  refin=false  refout=false  xorout=0xffffffff  check=0x765e7680  residue=0xc704dd7b  name=\"CRC-32/CKSUM\"",
+        "args": [
+            "-a",
+            "crc:32,04c11db7,00000000,false,false,ffffffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "765e7680"
+    },
+    {
+        "desc": "width=32  poly=0x1edc6f41  init=0xffffffff  refin=true  refout=true  xorout=0xffffffff  check=0xe3069283  residue=0xb798b438  name=\"CRC-32/ISCSI\"",
+        "args": [
+            "-a",
+            "crc:32,1edc6f41,ffffffff,true,true,ffffffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "e3069283"
+    },
+    {
+        "desc": "width=32  poly=0x04c11db7  init=0xffffffff  refin=true  refout=true  xorout=0xffffffff  check=0xcbf43926  residue=0xdebb20e3  name=\"CRC-32/ISO-HDLC\"",
+        "args": [
+            "-a",
+            "crc:32,04c11db7,ffffffff,true,true,ffffffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "cbf43926"
+    },
+    {
+        "desc": "width=32  poly=0x04c11db7  init=0xffffffff  refin=true  refout=true  xorout=0x00000000  check=0x340bc6d9  residue=0x00000000  name=\"CRC-32/JAMCRC\"",
+        "args": [
+            "-a",
+            "crc:32,04c11db7,ffffffff,true,true,00000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "340bc6d9"
+    },
+    {
+        "desc": "width=32  poly=0x741b8cd7  init=0xffffffff  refin=true  refout=true  xorout=0x00000000  check=0xd2c22f51  residue=0x00000000  name=\"CRC-32/MEF\"",
+        "args": [
+            "-a",
+            "crc:32,741b8cd7,ffffffff,true,true,00000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "d2c22f51"
+    },
+    {
+        "desc": "width=32  poly=0x04c11db7  init=0xffffffff  refin=false  refout=false  xorout=0x00000000  check=0x0376e6e7  residue=0x00000000  name=\"CRC-32/MPEG-2\"",
+        "args": [
+            "-a",
+            "crc:32,04c11db7,ffffffff,false,false,00000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "0376e6e7"
+    },
+    {
+        "desc": "width=32  poly=0x000000af  init=0x00000000  refin=false  refout=false  xorout=0x00000000  check=0xbd0be338  residue=0x00000000  name=\"CRC-32/XFER\"",
+        "args": [
+            "-a",
+            "crc:32,000000af,00000000,false,false,00000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "bd0be338"
+    },
+    {
+        "desc": "width=40  poly=0x0004820009  init=0x0000000000  refin=false  refout=false  xorout=0xffffffffff  check=0xd4164fc646  residue=0xc4ff8071ff  name=\"CRC-40/GSM\"",
+        "args": [
+            "-a",
+            "crc:40,0004820009,0000000000,false,false,ffffffffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "d4164fc646"
+    },
+    {
+        "desc": "width=64  poly=0x42f0e1eba9ea3693  init=0x0000000000000000  refin=false  refout=false  xorout=0x0000000000000000  check=0x6c40df5f0b497347  residue=0x0000000000000000  name=\"CRC-64/ECMA-182\"",
+        "args": [
+            "-a",
+            "crc:64,42f0e1eba9ea3693,0000000000000000,false,false,0000000000000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "6c40df5f0b497347"
+    },
+    {
+        "desc": "width=64  poly=0x000000000000001b  init=0xffffffffffffffff  refin=true  refout=true  xorout=0xffffffffffffffff  check=0xb90956c775a41001  residue=0x5300000000000000  name=\"CRC-64/GO-ISO\"",
+        "args": [
+            "-a",
+            "crc:64,000000000000001b,ffffffffffffffff,true,true,ffffffffffffffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "b90956c775a41001"
+    },
+    {
+        "desc": "width=64  poly=0x259c84cba6426349  init=0xffffffffffffffff  refin=true  refout=true  xorout=0x0000000000000000  check=0x75d4b74f024eceea  residue=0x0000000000000000  name=\"CRC-64/MS\"",
+        "args": [
+            "-a",
+            "crc:64,259c84cba6426349,ffffffffffffffff,true,true,0000000000000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "75d4b74f024eceea"
+    },
+    {
+        "desc": "width=64  poly=0xad93d23594c935a9  init=0x0000000000000000  refin=true  refout=true  xorout=0x0000000000000000  check=0xe9c6d914c4b8d9ca  residue=0x0000000000000000  name=\"CRC-64/REDIS\"",
+        "args": [
+            "-a",
+            "crc:64,ad93d23594c935a9,0000000000000000,true,true,0000000000000000",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "e9c6d914c4b8d9ca"
+    },
+    {
+        "desc": "width=64  poly=0x42f0e1eba9ea3693  init=0xffffffffffffffff  refin=false  refout=false  xorout=0xffffffffffffffff  check=0x62ec59e3f1a4f00a  residue=0xfcacbebd5931a992  name=\"CRC-64/WE\"",
+        "args": [
+            "-a",
+            "crc:64,42f0e1eba9ea3693,ffffffffffffffff,false,false,ffffffffffffffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "62ec59e3f1a4f00a"
+    },
+    {
+        "desc": "width=64  poly=0x42f0e1eba9ea3693  init=0xffffffffffffffff  refin=true  refout=true  xorout=0xffffffffffffffff  check=0x995dc9bbdf1939fa  residue=0x49958c9abd7d353f  name=\"CRC-64/XZ\"",
+        "args": [
+            "-a",
+            "crc:64,42f0e1eba9ea3693,ffffffffffffffff,true,true,ffffffffffffffff",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "995dc9bbdf1939fa"
+    },
+    {
+        "desc": "width=82  poly=0x0308c0111011401440411  init=0x000000000000000000000  refin=true  refout=true  xorout=0x000000000000000000000  check=0x09ea83f625023801fd612  residue=0x000000000000000000000  name=\"CRC-82/DARC\"",
+        "args": [
+            "-a",
+            "crc82_darc",
+            "-q",
+            "txt:123456789",
+            "-E",
+            "hex",
+            "-F",
+            "#CHECKSUM"
+        ],
+        "expected": "009ea83f625023801fd612"
+    }
+]

@@ -32,6 +32,8 @@ TESTVECTORS_JSON = 'testvectors/json'
 # user init
 # APP = ["java", "-jar", "jacksum-3.7.0.jar"]
 APP = ["java", "-jar", "jacksum-3.8.0-SNAPSHOT.jar"]
+APP = ["java", "-jar", "/Users/Johann/IdeaProjects/jacksum/target/jacksum-3.8.0-SNAPSHOT.jar"]
+
 TEST_ALGOS = [
     # SHA3 family
     'sha3-224','sha3-256', 'sha3-384', 'sha3-512',
@@ -57,6 +59,10 @@ TEST_ALGOS = [
     # NIST lightweight cryptography competition 2023: finalists ###
     'ascon-hash', 'ascon-hasha', 'ascon-xof', 'ascon-xofa',
     'romulus-h',
+
+    # derived from
+    # https://reveng.sourceforge.io/crc-catalogue/all.htm
+    'crc-catalogue',
 
     # CRC64/JONES by Professor David T. Jones at University College London, see also
     # http://www0.cs.ucl.ac.uk/staff/d.jones/crcnote.pdf
