@@ -20,7 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# Converts a NIST .rsp file or a text file stored in CAVS format to json.
+# Converts NIST .rsp files or text files stored in CAVS format to json.
 
 import json
 import sys
